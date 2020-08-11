@@ -19,8 +19,8 @@ U 1 1 5F439237
 P 2200 1050
 AR Path="/5F439237" Ref="U?"  Part="1" 
 AR Path="/5F425067/5F439237" Ref="U?"  Part="1" 
-AR Path="/5F42563C/5F439237" Ref="U101"  Part="1" 
-F 0 "U101" H 2200 1417 50  0000 C CNN
+AR Path="/5F42563C/5F439237" Ref="U102"  Part="1" 
+F 0 "U102" H 2200 1417 50  0000 C CNN
 F 1 "4520" H 2200 1326 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2200 1050 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf" H 2200 1050 50  0001 C CNN

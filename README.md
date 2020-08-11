@@ -13,6 +13,9 @@ Little side project, don't expect mush updates.
 	- Hex Inverter
 * Sequencer
 	- µC
+* Random generator
+	- zener
+	- µC
 * ADSR
 	- Opamp
 * VCA
