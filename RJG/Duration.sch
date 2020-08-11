@@ -27,19 +27,6 @@ F 3 "74xx/74hc_hct74.pdf" H 9750 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS85 U?
-U 1 1 5F436303
-P 2500 3800
-AR Path="/5F436303" Ref="U?"  Part="1" 
-AR Path="/5F425067/5F436303" Ref="U403"  Part="1" 
-F 0 "U403" H 2400 4450 50  0000 C CNN
-F 1 "74LS85" H 2300 4350 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2500 3800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS85" H 2500 3800 50  0001 C CNN
-	1    2500 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
 L 74xx:74LS157 U?
 U 1 1 5F436309
 P 4450 3800
@@ -255,20 +242,12 @@ F 3 "" H 8200 5150 50  0001 C CNN
 $EndComp
 Text HLabel 750  5450 0    50   Input ~ 0
 Rb1
-Wire Wire Line
-	750  5450 5600 5450
 Text HLabel 750  5550 0    50   Input ~ 0
 Rb2
-Wire Wire Line
-	750  5550 5500 5550
 Text HLabel 750  5650 0    50   Input ~ 0
 Rb3
-Wire Wire Line
-	750  5650 5400 5650
 Text HLabel 750  5750 0    50   Input ~ 0
 Rb4
-Wire Wire Line
-	750  5750 5300 5750
 $Comp
 L power:+5V #PWR0408
 U 1 1 5F66C1A5
@@ -294,75 +273,27 @@ $EndComp
 Wire Wire Line
 	8700 5450 8750 5450
 Wire Wire Line
-	8750 5450 8750 3900
-Wire Wire Line
-	8750 3900 7450 3900
-Wire Wire Line
-	7450 3800 8850 3800
-Wire Wire Line
-	8850 3800 8850 5550
+	7450 3000 9050 3000
 Wire Wire Line
 	8850 5550 8700 5550
 Wire Wire Line
 	8700 5650 8950 5650
 Wire Wire Line
-	8950 5650 8950 3700
-Wire Wire Line
-	8950 3700 7450 3700
-Wire Wire Line
 	8700 5750 9050 5750
 Wire Wire Line
-	9050 5750 9050 3600
+	5850 4100 4950 4100
 Wire Wire Line
-	9050 3600 7450 3600
+	5800 3800 4950 3800
 Wire Wire Line
-	6250 3500 6200 3500
-Wire Wire Line
-	6200 3500 6200 4100
-Wire Wire Line
-	6200 4100 4950 4100
-Wire Wire Line
-	6250 3400 6100 3400
-Wire Wire Line
-	6100 3400 6100 3800
-Wire Wire Line
-	6100 3800 4950 3800
-Wire Wire Line
-	6250 3200 4950 3200
-Wire Wire Line
-	4950 3500 6000 3500
-Wire Wire Line
-	6000 3500 6000 3300
-Wire Wire Line
-	6000 3300 6250 3300
+	4950 3500 5700 3500
 Wire Wire Line
 	4950 3300 5600 3300
 Wire Wire Line
-	5600 3300 5600 5450
-Connection ~ 5600 5450
-Wire Wire Line
-	5600 5450 7700 5450
-Wire Wire Line
 	4950 3600 5500 3600
-Wire Wire Line
-	5500 3600 5500 5550
-Connection ~ 5500 5550
-Wire Wire Line
-	5500 5550 7700 5550
 Wire Wire Line
 	4950 3900 5400 3900
 Wire Wire Line
-	5400 3900 5400 5650
-Connection ~ 5400 5650
-Wire Wire Line
-	5400 5650 7700 5650
-Wire Wire Line
 	4950 4200 5300 4200
-Wire Wire Line
-	5300 4200 5300 5750
-Connection ~ 5300 5750
-Wire Wire Line
-	5300 5750 7700 5750
 $Comp
 L power:GND #PWR0420
 U 1 1 5F69CBD5
@@ -376,30 +307,6 @@ F 3 "" H 7600 5200 50  0001 C CNN
 $EndComp
 NoConn ~ 7450 4600
 NoConn ~ 7450 4500
-Wire Wire Line
-	7450 4400 7600 4400
-Wire Wire Line
-	7600 4400 7600 4800
-Wire Wire Line
-	7450 4300 7600 4300
-Wire Wire Line
-	7600 4300 7600 4400
-Connection ~ 7600 4400
-Wire Wire Line
-	7450 4200 7600 4200
-Wire Wire Line
-	7600 4200 7600 4300
-Connection ~ 7600 4300
-Wire Wire Line
-	7450 4100 7600 4100
-Wire Wire Line
-	7600 4100 7600 4200
-Connection ~ 7600 4200
-Wire Wire Line
-	7450 4000 7600 4000
-Wire Wire Line
-	7600 4000 7600 4100
-Connection ~ 7600 4100
 Wire Wire Line
 	2400 4850 3250 4850
 Wire Wire Line
@@ -424,18 +331,6 @@ Wire Wire Line
 	3550 3900 3550 5150
 Wire Wire Line
 	3550 5150 2400 5150
-Wire Wire Line
-	3000 3700 3800 3700
-Wire Wire Line
-	3800 3700 3800 4100
-Wire Wire Line
-	3800 4100 3950 4100
-Wire Wire Line
-	3000 3600 3900 3600
-Wire Wire Line
-	3900 3600 3900 3800
-Wire Wire Line
-	3900 3800 3950 3800
 Wire Wire Line
 	1900 3400 2000 3400
 Wire Wire Line
@@ -465,18 +360,18 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 5F6F2D21
-P 6250 2300
+P 6300 2300
 AR Path="/5F42563C/5F6F2D21" Ref="#PWR?"  Part="1" 
 AR Path="/5F425067/5F6F2D21" Ref="#PWR0406"  Part="1" 
-F 0 "#PWR0406" H 6250 2150 50  0001 C CNN
-F 1 "+5V" V 6265 2428 50  0000 L CNN
-F 2 "" H 6250 2300 50  0001 C CNN
-F 3 "" H 6250 2300 50  0001 C CNN
-	1    6250 2300
+F 0 "#PWR0406" H 6300 2150 50  0001 C CNN
+F 1 "+5V" V 6315 2428 50  0000 L CNN
+F 2 "" H 6300 2300 50  0001 C CNN
+F 3 "" H 6300 2300 50  0001 C CNN
+	1    6300 2300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6250 2300 6350 2300
+	6300 2300 6350 2300
 $Comp
 L power:+5V #PWR?
 U 1 1 5F6F587D
@@ -555,9 +450,9 @@ Connection ~ 7550 6650
 Wire Wire Line
 	7550 6650 7550 6800
 Wire Wire Line
-	5850 2800 5850 2200
+	6000 2800 6000 2200
 Wire Wire Line
-	5850 2200 6350 2200
+	6000 2200 6350 2200
 Wire Wire Line
 	6350 2100 5900 2100
 Wire Wire Line
@@ -569,53 +464,23 @@ Wire Wire Line
 Connection ~ 5900 1350
 Connection ~ 5900 650 
 Wire Wire Line
-	7350 2300 7500 2300
+	7350 2300 7600 2300
 Wire Wire Line
-	7500 2300 7500 2800
+	7700 2200 7350 2200
 Wire Wire Line
-	7500 2800 7450 2800
+	7350 2100 7800 2100
 Wire Wire Line
-	7450 2900 7600 2900
+	7900 2000 7350 2000
 Wire Wire Line
-	7600 2900 7600 2200
+	7350 1550 8000 1550
 Wire Wire Line
-	7600 2200 7350 2200
+	8000 1550 8000 1650
 Wire Wire Line
-	7350 2100 7700 2100
+	8100 1450 7350 1450
 Wire Wire Line
-	7700 2100 7700 3000
+	7350 1350 8200 1350
 Wire Wire Line
-	7700 3000 7450 3000
-Wire Wire Line
-	7450 3100 7800 3100
-Wire Wire Line
-	7800 3100 7800 2000
-Wire Wire Line
-	7800 2000 7350 2000
-Wire Wire Line
-	7350 1550 7900 1550
-Wire Wire Line
-	7900 1550 7900 1650
-Wire Wire Line
-	7900 3200 7450 3200
-Wire Wire Line
-	7450 3300 8000 3300
-Wire Wire Line
-	8000 3300 8000 1450
-Wire Wire Line
-	8000 1450 7350 1450
-Wire Wire Line
-	7350 1350 8100 1350
-Wire Wire Line
-	8100 1350 8100 3400
-Wire Wire Line
-	8100 3400 7450 3400
-Wire Wire Line
-	7450 3500 8200 3500
-Wire Wire Line
-	8200 3500 8200 1250
-Wire Wire Line
-	8200 1250 7350 1250
+	8300 1250 7350 1250
 $Comp
 L power:+5V #PWR?
 U 1 1 5F852578
@@ -656,8 +521,7 @@ Connection ~ 7600 5000
 Wire Wire Line
 	7600 5000 7600 5100
 Wire Wire Line
-	7450 4800 7600 4800
-Connection ~ 7600 4800
+	7450 4800 7500 4800
 Wire Wire Line
 	7600 4800 7600 5000
 $Comp
@@ -739,76 +603,76 @@ Connection ~ 7550 6250
 Wire Wire Line
 	7550 6250 7550 6350
 Wire Wire Line
-	5850 2800 6250 2800
+	6000 2800 6250 2800
 $Comp
 L Switch:SW_SPST SW?
 U 1 1 5FA3E3BE
-P 5300 6450
+P 5500 6450
 AR Path="/5F424A92/5FA3E3BE" Ref="SW?"  Part="1" 
 AR Path="/5F425067/5FA3E3BE" Ref="SW402"  Part="1" 
-F 0 "SW402" H 5300 6685 50  0000 C CNN
-F 1 "Reload" H 5300 6594 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5300 6450 50  0001 C CNN
-F 3 "~" H 5300 6450 50  0001 C CNN
-	1    5300 6450
+F 0 "SW402" H 5500 6685 50  0000 C CNN
+F 1 "Reload" H 5500 6594 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5500 6450 50  0001 C CNN
+F 3 "~" H 5500 6450 50  0001 C CNN
+	1    5500 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5FA3E3C6
-P 5000 6350
+P 5200 6350
 AR Path="/5F424A92/5FA3E3C6" Ref="#PWR?"  Part="1" 
 AR Path="/5F425067/5FA3E3C6" Ref="#PWR0422"  Part="1" 
-F 0 "#PWR0422" H 5000 6200 50  0001 C CNN
-F 1 "+5V" H 5015 6523 50  0000 C CNN
-F 2 "" H 5000 6350 50  0001 C CNN
-F 3 "" H 5000 6350 50  0001 C CNN
-	1    5000 6350
+F 0 "#PWR0422" H 5200 6200 50  0001 C CNN
+F 1 "+5V" H 5215 6523 50  0000 C CNN
+F 2 "" H 5200 6350 50  0001 C CNN
+F 3 "" H 5200 6350 50  0001 C CNN
+	1    5200 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 6350 5000 6450
+	5200 6350 5200 6450
 Wire Wire Line
-	5000 6450 5100 6450
+	5200 6450 5300 6450
 $Comp
 L Device:R R?
 U 1 1 5FA3E3CE
-P 5600 6700
+P 5800 6700
 AR Path="/5FA3E3CE" Ref="R?"  Part="1" 
 AR Path="/5F424A92/5FA3E3CE" Ref="R?"  Part="1" 
 AR Path="/5F425067/5FA3E3CE" Ref="R408"  Part="1" 
-F 0 "R408" H 5670 6746 50  0000 L CNN
-F 1 "100k" H 5670 6655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5530 6700 50  0001 C CNN
-F 3 "~" H 5600 6700 50  0001 C CNN
-	1    5600 6700
+F 0 "R408" H 5870 6746 50  0000 L CNN
+F 1 "100k" H 5870 6655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5730 6700 50  0001 C CNN
+F 3 "~" H 5800 6700 50  0001 C CNN
+	1    5800 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FA3E3D4
-P 5600 6850
+P 5800 6850
 AR Path="/5F424A92/5FA3E3D4" Ref="#PWR?"  Part="1" 
 AR Path="/5F425067/5FA3E3D4" Ref="#PWR0425"  Part="1" 
-F 0 "#PWR0425" H 5600 6600 50  0001 C CNN
-F 1 "GND" H 5605 6677 50  0000 C CNN
-F 2 "" H 5600 6850 50  0001 C CNN
-F 3 "" H 5600 6850 50  0001 C CNN
-	1    5600 6850
+F 0 "#PWR0425" H 5800 6600 50  0001 C CNN
+F 1 "GND" H 5805 6677 50  0000 C CNN
+F 2 "" H 5800 6850 50  0001 C CNN
+F 3 "" H 5800 6850 50  0001 C CNN
+	1    5800 6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 6550 5600 6450
-Connection ~ 5600 6450
+	5800 6550 5800 6450
+Connection ~ 5800 6450
 $Comp
 L Jumper:SolderJumper_2_Open JP401
 U 1 1 5FA4981F
-P 5850 5950
-F 0 "JP401" V 5804 6018 50  0000 L CNN
-F 1 "Auto-reload" V 5895 6018 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5850 5950 50  0001 C CNN
-F 3 "~" H 5850 5950 50  0001 C CNN
-	1    5850 5950
+P 6000 5950
+F 0 "JP401" V 5954 6018 50  0000 L CNN
+F 1 "Auto-reload" V 6045 6018 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6000 5950 50  0001 C CNN
+F 3 "~" H 6000 5950 50  0001 C CNN
+	1    6000 5950
 	0    1    1    0   
 $EndComp
 NoConn ~ 6250 3100
@@ -898,26 +762,24 @@ Connection ~ 9150 1400
 Wire Wire Line
 	9150 1400 9150 1450
 Wire Wire Line
-	8550 1650 7900 1650
-Connection ~ 7900 1650
-Wire Wire Line
-	7900 1650 7900 3200
+	8550 1650 8000 1650
+Connection ~ 8000 1650
 $Comp
 L Device:R R?
 U 1 1 5FBC83F0
-P 5850 6250
+P 6000 6250
 AR Path="/5FBC83F0" Ref="R?"  Part="1" 
 AR Path="/5F424A92/5FBC83F0" Ref="R?"  Part="1" 
 AR Path="/5F425067/5FBC83F0" Ref="R407"  Part="1" 
-F 0 "R407" H 5920 6296 50  0000 L CNN
-F 1 "10k" H 5920 6205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5780 6250 50  0001 C CNN
-F 3 "~" H 5850 6250 50  0001 C CNN
-	1    5850 6250
+F 0 "R407" H 6070 6296 50  0000 L CNN
+F 1 "10k" H 6070 6205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5930 6250 50  0001 C CNN
+F 3 "~" H 6000 6250 50  0001 C CNN
+	1    6000 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 6400 5850 6450
+	6000 6400 6000 6450
 $Comp
 L Device:C C?
 U 1 1 5FD03FA9
@@ -1181,20 +1043,16 @@ Connection ~ 1900 3400
 Wire Wire Line
 	1650 4200 2000 4200
 Wire Wire Line
-	3500 3200 3950 3200
-Wire Wire Line
-	3000 3500 3950 3500
-Wire Wire Line
 	1500 4100 1500 2700
 Wire Wire Line
 	1500 4100 2000 4100
 Wire Wire Line
 	1500 650  5900 650 
 Wire Wire Line
-	5600 6450 5850 6450
+	5800 6450 6000 6450
 Wire Wire Line
-	5850 5800 5850 2800
-Connection ~ 5850 2800
+	6000 5800 6000 2800
+Connection ~ 6000 2800
 Wire Wire Line
 	10050 1300 10350 1300
 Wire Wire Line
@@ -1234,7 +1092,7 @@ Connection ~ 8400 550
 Wire Wire Line
 	8400 550  10350 550 
 Wire Wire Line
-	5500 6450 5600 6450
+	5700 6450 5800 6450
 Text Label 10350 550  2    50   ~ 0
 Reset
 Text Label 10350 650  2    50   ~ 0
@@ -1482,7 +1340,7 @@ Text Notes 800  5850 0    50   ~ 0
 Random bits
 Text Notes 4200 5200 0    50   ~ 0
 Chorus/Impro\nselector
-Text Notes 7750 4450 0    50   ~ 0
+Text Notes 7750 4700 0    50   ~ 0
 Chorus duration\npattern ROM
 Text Notes 7050 1100 0    50   ~ 0
 Note step counter
@@ -1497,8 +1355,8 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	2200 2700 2200 2800
 Wire Wire Line
-	5850 6450 7700 6450
-Connection ~ 5850 6450
+	6000 6450 7700 6450
+Connection ~ 6000 6450
 $Comp
 L 74xx:74LS74 U?
 U 2 1 60326342
@@ -1550,4 +1408,162 @@ Wire Wire Line
 Wire Wire Line
 	9800 4200 9800 3850
 Connection ~ 9800 3850
+Wire Wire Line
+	9050 5750 9050 3000
+Wire Wire Line
+	8950 5650 8950 3100
+Wire Wire Line
+	8950 3100 7450 3100
+Wire Wire Line
+	8300 1250 8300 3700
+Wire Wire Line
+	7450 3800 7600 3800
+Wire Wire Line
+	7700 3900 7450 3900
+Wire Wire Line
+	7700 2200 7700 3900
+Wire Wire Line
+	8200 4100 7450 4100
+Wire Wire Line
+	8200 1350 8200 4100
+Wire Wire Line
+	7800 3600 7450 3600
+Wire Wire Line
+	7800 2100 7800 3600
+Wire Wire Line
+	8100 4200 7450 4200
+Wire Wire Line
+	8100 1450 8100 4200
+Wire Wire Line
+	7900 4000 7450 4000
+Wire Wire Line
+	7900 2000 7900 4000
+Wire Wire Line
+	8000 4400 7450 4400
+Wire Wire Line
+	8000 1650 8000 4400
+Wire Wire Line
+	7600 2300 7600 3800
+Wire Wire Line
+	7450 3700 8300 3700
+Wire Wire Line
+	7450 2800 8750 2800
+Wire Wire Line
+	8750 2800 8750 5450
+Wire Wire Line
+	7450 2900 8850 2900
+Wire Wire Line
+	8850 2900 8850 5550
+Wire Wire Line
+	750  5550 5500 5550
+Wire Wire Line
+	5500 3600 5500 5550
+Connection ~ 5500 5550
+Wire Wire Line
+	5500 5550 7700 5550
+Wire Wire Line
+	750  5450 5400 5450
+Wire Wire Line
+	5400 3900 5400 5450
+Connection ~ 5400 5450
+Wire Wire Line
+	5400 5450 7700 5450
+Wire Wire Line
+	750  5750 5600 5750
+Wire Wire Line
+	750  5650 5300 5650
+Wire Wire Line
+	5300 4200 5300 5650
+Connection ~ 5300 5650
+Wire Wire Line
+	5300 5650 7700 5650
+Wire Wire Line
+	5600 3300 5600 5750
+Connection ~ 5600 5750
+Wire Wire Line
+	5600 5750 7700 5750
+Wire Wire Line
+	7450 3200 7500 3200
+Wire Wire Line
+	7500 3200 7500 3300
+Connection ~ 7500 4800
+Wire Wire Line
+	7500 4800 7600 4800
+Wire Wire Line
+	7450 3500 7500 3500
+Connection ~ 7500 3500
+Wire Wire Line
+	7500 3500 7500 4300
+Wire Wire Line
+	7450 3400 7500 3400
+Connection ~ 7500 3400
+Wire Wire Line
+	7500 3400 7500 3500
+Wire Wire Line
+	7450 3300 7500 3300
+Connection ~ 7500 3300
+Wire Wire Line
+	7500 3300 7500 3400
+Wire Wire Line
+	7450 4300 7500 4300
+Connection ~ 7500 4300
+Wire Wire Line
+	7500 4300 7500 4800
+Wire Wire Line
+	5800 3800 5800 3200
+Wire Wire Line
+	5800 3200 6250 3200
+Wire Wire Line
+	5700 3500 5700 3300
+Wire Wire Line
+	5700 3300 6250 3300
+Wire Wire Line
+	5850 4100 5850 3400
+Wire Wire Line
+	5850 3400 6250 3400
+Wire Wire Line
+	4950 3200 5750 3200
+Wire Wire Line
+	5750 3200 5750 3500
+Wire Wire Line
+	5750 3500 6250 3500
+Wire Wire Line
+	3000 3600 3650 3600
+Wire Wire Line
+	3650 3600 3650 4100
+Wire Wire Line
+	3650 4100 3950 4100
+Wire Wire Line
+	3000 3700 3850 3700
+Wire Wire Line
+	3850 3700 3850 3200
+Wire Wire Line
+	3850 3200 3950 3200
+$Comp
+L 74xx:74LS85 U?
+U 1 1 5F436303
+P 2500 3800
+AR Path="/5F436303" Ref="U?"  Part="1" 
+AR Path="/5F425067/5F436303" Ref="U403"  Part="1" 
+F 0 "U403" H 2400 4450 50  0000 C CNN
+F 1 "74LS85" H 2300 4350 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2500 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS85" H 2500 3800 50  0001 C CNN
+	1    2500 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3500 3950 3500
+Wire Wire Line
+	3500 3200 3750 3200
+Wire Wire Line
+	3750 3200 3750 3800
+Wire Wire Line
+	3750 3800 3950 3800
+Text Notes 3600 3100 0    50   ~ 0
+Bit order doesn't\nreally matter -\noptimized for\nlayout
+Text Notes 5300 3150 0    50   ~ 0
+Bit order doesn't\nreally matter -\noptimized for\nlayout
+Text Notes 8250 4200 0    50   ~ 0
+Bit order doesn't\nreally matter -\noptimized for\nlayout
 $EndSCHEMATC
