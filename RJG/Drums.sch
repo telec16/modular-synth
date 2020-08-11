@@ -256,4 +256,6 @@ Wire Wire Line
 	1700 1150 850  1150
 Text HLabel 850  1150 0    50   Input ~ 0
 Rst
+Text Notes 1850 1500 0    50   ~ 0
+Simple drum pattern
 $EndSCHEMATC

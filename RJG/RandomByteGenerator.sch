@@ -355,9 +355,9 @@ Wire Wire Line
 Connection ~ 4550 2700
 Wire Wire Line
 	4550 2700 3750 2700
-Text Notes 6250 1650 0    50   ~ 0
+Text Notes 6400 1800 0    50   ~ 0
 Untested
-Text Notes 6250 2600 0    50   ~ 0
+Text Notes 6450 2750 0    50   ~ 0
 Untested
 $Comp
 L Device:C C?
@@ -572,4 +572,12 @@ F 3 "" H 1250 1100 50  0001 C CNN
 $EndComp
 Wire Bus Line
 	4650 3000 4650 3800
+Text Notes 5900 1650 0    50   ~ 0
+Random bit generator
+Text Notes 5800 2600 0    50   ~ 0
+Clock from spare components
+Text Notes 2250 3500 0    50   ~ 0
+Latch must be eight times\nslower than Fclk\n=> <10Hz
+Text Notes 5250 3150 0    50   ~ 0
+Random bytes
 $EndSCHEMATC

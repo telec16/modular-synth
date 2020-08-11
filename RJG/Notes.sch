@@ -51,7 +51,7 @@ U 1 1 5F5E61CF
 P 4500 2000
 F 0 "D301" V 4539 1883 50  0000 R CNN
 F 1 "LED" V 4448 1883 50  0000 R CNN
-F 2 "" H 4500 2000 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4500 2000 50  0001 C CNN
 F 3 "~" H 4500 2000 50  0001 C CNN
 	1    4500 2000
 	0    -1   -1   0   
@@ -560,7 +560,7 @@ U 1 1 5F4D114D
 P 2050 1150
 F 0 "SW301" H 2050 1385 50  0000 C CNN
 F 1 "Reload" H 2050 1294 50  0000 C CNN
-F 2 "" H 2050 1150 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2050 1150 50  0001 C CNN
 F 3 "~" H 2050 1150 50  0001 C CNN
 	1    2050 1150
 	1    0    0    -1  
@@ -629,7 +629,7 @@ U 1 1 5F4B11CB
 P 10000 1050
 F 0 "RV308" H 9931 1096 50  0000 R CNN
 F 1 "100k" H 9931 1005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 10000 1050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 10000 1050 50  0001 C CNN
 F 3 "~" H 10000 1050 50  0001 C CNN
 	1    10000 1050
 	1    0    0    -1  
@@ -666,7 +666,7 @@ U 1 1 5F4B089E
 P 9300 1050
 F 0 "RV307" H 9231 1096 50  0000 R CNN
 F 1 "100k" H 9231 1005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 9300 1050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 9300 1050 50  0001 C CNN
 F 3 "~" H 9300 1050 50  0001 C CNN
 	1    9300 1050
 	1    0    0    -1  
@@ -703,7 +703,7 @@ U 1 1 5F4AFA39
 P 8600 1050
 F 0 "RV306" H 8531 1096 50  0000 R CNN
 F 1 "100k" H 8531 1005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 8600 1050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 8600 1050 50  0001 C CNN
 F 3 "~" H 8600 1050 50  0001 C CNN
 	1    8600 1050
 	1    0    0    -1  
@@ -740,7 +740,7 @@ U 1 1 5F4AF409
 P 7900 1050
 F 0 "RV305" H 7831 1096 50  0000 R CNN
 F 1 "100k" H 7831 1005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 7900 1050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7900 1050 50  0001 C CNN
 F 3 "~" H 7900 1050 50  0001 C CNN
 	1    7900 1050
 	1    0    0    -1  
@@ -777,7 +777,7 @@ U 1 1 5F4AF20B
 P 7200 1050
 F 0 "RV304" H 7131 1096 50  0000 R CNN
 F 1 "100k" H 7131 1005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 7200 1050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7200 1050 50  0001 C CNN
 F 3 "~" H 7200 1050 50  0001 C CNN
 	1    7200 1050
 	1    0    0    -1  
@@ -814,7 +814,7 @@ U 1 1 5F4AE15E
 P 6500 1050
 F 0 "RV303" H 6431 1096 50  0000 R CNN
 F 1 "100k" H 6431 1005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 6500 1050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6500 1050 50  0001 C CNN
 F 3 "~" H 6500 1050 50  0001 C CNN
 	1    6500 1050
 	1    0    0    -1  
@@ -851,7 +851,7 @@ U 1 1 5F4ACD4C
 P 5800 1050
 F 0 "RV302" H 5731 1096 50  0000 R CNN
 F 1 "100k" H 5731 1005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 5800 1050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5800 1050 50  0001 C CNN
 F 3 "~" H 5800 1050 50  0001 C CNN
 	1    5800 1050
 	1    0    0    -1  
@@ -888,7 +888,7 @@ U 1 1 5F4A940A
 P 5100 1050
 F 0 "RV301" H 5031 1096 50  0000 R CNN
 F 1 "100k" H 5031 1005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 5100 1050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5100 1050 50  0001 C CNN
 F 3 "~" H 5100 1050 50  0001 C CNN
 	1    5100 1050
 	1    0    0    -1  
@@ -1063,4 +1063,14 @@ Wire Bus Line
 	8000 1450 10250 1450
 Wire Bus Line
 	8000 1450 8000 2900
+Text Notes 2350 4100 0    50   ~ 0
+Load random bits\nto memory
+Text Notes 3450 4100 0    50   ~ 0
+Barrel shift register\n(Chorus notes memory)
+Text Notes 6000 4100 0    50   ~ 0
+Chorus/Impro\nselection
+Text Notes 7750 3250 0    50   ~ 0
+Switch between\nnotes CV
+Text Notes 9900 3350 0    50   ~ 0
+Random bit stream
 $EndSCHEMATC
