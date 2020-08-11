@@ -29,7 +29,7 @@ AR Path="/5F5E9646" Ref="R?"  Part="1"
 AR Path="/5F424A92/5F5E9646" Ref="R302"  Part="1" 
 F 0 "R302" H 4570 1696 50  0000 L CNN
 F 1 "1k" H 4570 1605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4430 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4430 1650 50  0001 C CNN
 F 3 "~" H 4500 1650 50  0001 C CNN
 	1    4500 1650
 	1    0    0    -1  
@@ -49,37 +49,29 @@ $Comp
 L Device:LED D301
 U 1 1 5F5E61CF
 P 4500 2000
-F 0 "D301" V 4539 1883 50  0000 R CNN
-F 1 "LED" V 4448 1883 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 4500 2000 50  0001 C CNN
+F 0 "D301" V 4539 1882 50  0000 R CNN
+F 1 "LED" V 4448 1882 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 4500 2000 50  0001 C CNN
 F 3 "~" H 4500 2000 50  0001 C CNN
 	1    4500 2000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4700 3400 5200 3400
+	4900 3400 5200 3400
 Wire Wire Line
-	4350 3100 4700 3100
+	4350 3100 4650 3100
 Wire Wire Line
-	4700 3100 4700 3400
+	4900 2800 5200 2800
 Wire Wire Line
-	4800 3100 5200 3100
+	4350 3000 4650 3000
 Wire Wire Line
-	4350 3000 4800 3000
+	4900 3100 5200 3100
 Wire Wire Line
-	4800 3000 4800 3100
+	4350 2900 4650 2900
 Wire Wire Line
-	4800 2800 5200 2800
+	4900 2500 5200 2500
 Wire Wire Line
-	4350 2900 4800 2900
-Wire Wire Line
-	4800 2900 4800 2800
-Wire Wire Line
-	4700 2500 5200 2500
-Wire Wire Line
-	4350 2800 4700 2800
-Wire Wire Line
-	4700 2800 4700 2500
+	4350 2800 4650 2800
 Wire Wire Line
 	3250 3300 3250 4750
 Wire Wire Line
@@ -344,22 +336,22 @@ Chorus1
 Text Label 4900 2600 0    50   ~ 0
 Impro1
 Wire Wire Line
-	5200 2900 4900 2900
-Text Label 4900 2800 0    50   ~ 0
+	5200 3200 4900 3200
+Text Label 4900 3400 0    50   ~ 0
 Chorus2
-Text Label 4900 2900 0    50   ~ 0
+Text Label 4900 3500 0    50   ~ 0
 Impro2
 Wire Wire Line
-	5200 3200 4900 3200
-Text Label 4900 3100 0    50   ~ 0
+	5200 2900 4900 2900
+Text Label 4900 2800 0    50   ~ 0
 Chorus3
-Text Label 4900 3200 0    50   ~ 0
+Text Label 4900 2900 0    50   ~ 0
 Impro3
 Wire Wire Line
 	5200 3500 4900 3500
-Text Label 4900 3400 0    50   ~ 0
+Text Label 4900 3100 0    50   ~ 0
 Chorus4
-Text Label 4900 3500 0    50   ~ 0
+Text Label 4900 3200 0    50   ~ 0
 Impro4
 Text Label 4650 2800 2    50   ~ 0
 Chorus1
@@ -485,30 +477,30 @@ F 3 "" H 1700 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 3700 1450 3700
-Text Label 1450 3500 0    50   ~ 0
-Impro4
-Text Label 1450 3400 0    50   ~ 0
-Chorus4
-Wire Wire Line
-	1750 3500 1450 3500
-Wire Wire Line
-	1750 3400 1450 3400
 Text Label 1450 3200 0    50   ~ 0
-Impro3
+Impro4
 Text Label 1450 3100 0    50   ~ 0
-Chorus3
+Chorus4
 Wire Wire Line
 	1750 3200 1450 3200
 Wire Wire Line
 	1750 3100 1450 3100
 Text Label 1450 2900 0    50   ~ 0
-Impro2
+Impro3
 Text Label 1450 2800 0    50   ~ 0
-Chorus2
+Chorus3
 Wire Wire Line
 	1750 2900 1450 2900
 Wire Wire Line
 	1750 2800 1450 2800
+Text Label 1450 3500 0    50   ~ 0
+Impro2
+Text Label 1450 3400 0    50   ~ 0
+Chorus2
+Wire Wire Line
+	1750 3500 1450 3500
+Wire Wire Line
+	1750 3400 1450 3400
 Text Label 1450 2600 0    50   ~ 0
 Impro1
 Text Label 1450 2500 0    50   ~ 0
@@ -1057,12 +1049,6 @@ F 3 "" H 2700 6750 50  0001 C CNN
 	1    2700 6750
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	5550 1450 8000 1450
-Wire Bus Line
-	8000 1450 10250 1450
-Wire Bus Line
-	8000 1450 8000 2900
 Text Notes 2350 4100 0    50   ~ 0
 Load random bits\nto memory
 Text Notes 3450 4100 0    50   ~ 0
@@ -1073,4 +1059,10 @@ Text Notes 7750 3250 0    50   ~ 0
 Switch between\nnotes CV
 Text Notes 9900 3350 0    50   ~ 0
 Random bit stream
+Wire Bus Line
+	5550 1450 8000 1450
+Wire Bus Line
+	8000 1450 10250 1450
+Wire Bus Line
+	8000 1450 8000 2900
 $EndSCHEMATC

@@ -73,7 +73,7 @@ AR Path="/5F436315" Ref="U?"  Part="1"
 AR Path="/5F425067/5F436315" Ref="U405"  Part="1" 
 F 0 "U405" H 6700 5400 50  0000 C CNN
 F 1 "SST39SF010" H 6550 5300 50  0000 C CNN
-F 2 "Package_LCC:PLCC-32_11.4x14.0mm_P1.27mm" H 6850 4300 50  0001 C CNN
+F 2 "telec:PLCC-32_THT-Socket" H 6850 4300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf" H 6850 4300 50  0001 C CNN
 	1    6850 4000
 	-1   0    0    -1  
@@ -109,8 +109,8 @@ L 4xxx:4520 U?
 U 2 1 5F436EFF
 P 1900 4950
 AR Path="/5F436EFF" Ref="U?"  Part="1" 
-AR Path="/5F425067/5F436EFF" Ref="U406"  Part="2" 
-F 0 "U406" H 1900 5317 50  0000 C CNN
+AR Path="/5F425067/5F436EFF" Ref="U102"  Part="2" 
+F 0 "U102" H 1900 5317 50  0000 C CNN
 F 1 "4520" H 1900 5226 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 1900 4950 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf" H 1900 4950 50  0001 C CNN
@@ -682,8 +682,8 @@ AR Path="/5F8F2AF1" Ref="R?"  Part="1"
 AR Path="/5F42563C/5F8F2AF1" Ref="R?"  Part="1" 
 AR Path="/5F425067/5F8F2AF1" Ref="R405"  Part="1" 
 F 0 "R405" V 9000 2600 50  0000 L CNN
-F 1 "1k" V 9100 2650 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9030 2700 50  0001 C CNN
+F 1 "10k" V 9100 2650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9030 2700 50  0001 C CNN
 F 3 "~" H 9100 2700 50  0001 C CNN
 	1    9100 2700
 	0    1    -1   0   
@@ -710,7 +710,7 @@ AR Path="/5F42563C/5F9A422C" Ref="R?"  Part="1"
 AR Path="/5F425067/5F9A422C" Ref="R403"  Part="1" 
 F 0 "R403" V 9450 2150 50  0000 L CNN
 F 1 "100k" V 9550 2150 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9480 2250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9480 2250 50  0001 C CNN
 F 3 "~" H 9550 2250 50  0001 C CNN
 	1    9550 2250
 	-1   0    0    1   
@@ -844,8 +844,8 @@ AR Path="/5FB2C32F" Ref="R?"  Part="1"
 AR Path="/5F42563C/5FB2C32F" Ref="R?"  Part="1" 
 AR Path="/5F425067/5FB2C32F" Ref="R402"  Part="1" 
 F 0 "R402" V 8600 1550 50  0000 L CNN
-F 1 "1k" V 8700 1600 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8630 1650 50  0001 C CNN
+F 1 "10k" V 8700 1600 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8630 1650 50  0001 C CNN
 F 3 "~" H 8700 1650 50  0001 C CNN
 	1    8700 1650
 	0    1    -1   0   
@@ -872,7 +872,7 @@ AR Path="/5F42563C/5FB2C33B" Ref="R?"  Part="1"
 AR Path="/5F425067/5FB2C33B" Ref="R401"  Part="1" 
 F 0 "R401" V 9050 1100 50  0000 L CNN
 F 1 "100k" V 9150 1100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9080 1200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9080 1200 50  0001 C CNN
 F 3 "~" H 9150 1200 50  0001 C CNN
 	1    9150 1200
 	-1   0    0    1   
@@ -1263,7 +1263,7 @@ AR Path="/6010FFF7" Ref="D?"  Part="1"
 AR Path="/5F425067/6010FFF7" Ref="D403"  Part="1" 
 F 0 "D403" V 789 3983 50  0000 R CNN
 F 1 "LED" V 698 3983 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 750 4100 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 750 4100 50  0001 C CNN
 F 3 "~" H 750 4100 50  0001 C CNN
 	1    750  4100
 	0    -1   -1   0   
@@ -1288,8 +1288,8 @@ P 750 3800
 AR Path="/60110003" Ref="R?"  Part="1" 
 AR Path="/5F425067/60110003" Ref="R406"  Part="1" 
 F 0 "R406" H 820 3846 50  0000 L CNN
-F 1 "1k5" V 750 3750 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 680 3800 50  0001 C CNN
+F 1 "1k" V 750 3750 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 680 3800 50  0001 C CNN
 F 3 "~" H 750 3800 50  0001 C CNN
 	1    750  3800
 	1    0    0    -1  

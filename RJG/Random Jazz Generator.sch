@@ -326,26 +326,26 @@ $EndComp
 Entry Wire Line
 	6100 2050 6200 1950
 Wire Wire Line
-	6450 1950 6200 1950
-Text Label 6250 1950 0    50   ~ 0
+	6450 3750 6200 3750
+Text Label 6250 3750 0    50   ~ 0
 RB0
 Entry Wire Line
 	6100 2150 6200 2050
 Wire Wire Line
-	6450 2050 6200 2050
-Text Label 6250 2050 0    50   ~ 0
+	6450 3850 6200 3850
+Text Label 6250 3850 0    50   ~ 0
 RB1
 Entry Wire Line
 	6100 2250 6200 2150
 Wire Wire Line
-	6450 2150 6200 2150
-Text Label 6250 2150 0    50   ~ 0
+	6450 3950 6200 3950
+Text Label 6250 3950 0    50   ~ 0
 RB2
 Entry Wire Line
 	6100 2350 6200 2250
 Wire Wire Line
-	6450 2250 6200 2250
-Text Label 6250 2250 0    50   ~ 0
+	6450 4050 6200 4050
+Text Label 6250 4050 0    50   ~ 0
 RB3
 Wire Bus Line
 	5000 2800 6100 2800
@@ -385,26 +385,26 @@ Wire Wire Line
 Entry Wire Line
 	6100 3950 6200 4050
 Wire Wire Line
-	6450 4050 6200 4050
-Text Label 6250 4050 0    50   ~ 0
+	6450 2250 6200 2250
+Text Label 6250 1950 0    50   ~ 0
 RB7
 Entry Wire Line
 	6100 3850 6200 3950
 Wire Wire Line
-	6450 3950 6200 3950
-Text Label 6250 3950 0    50   ~ 0
+	6450 2150 6200 2150
+Text Label 6250 2050 0    50   ~ 0
 RB6
 Entry Wire Line
 	6100 3750 6200 3850
 Wire Wire Line
-	6450 3850 6200 3850
-Text Label 6250 3850 0    50   ~ 0
+	6450 2050 6200 2050
+Text Label 6250 2150 0    50   ~ 0
 RB5
 Entry Wire Line
 	6100 3650 6200 3750
 Wire Wire Line
-	6450 3750 6200 3750
-Text Label 6250 3750 0    50   ~ 0
+	6450 1950 6200 1950
+Text Label 6250 2250 0    50   ~ 0
 RB4
 Text Label 6100 3500 3    50   ~ 0
 RB[7..0]
@@ -833,8 +833,6 @@ Wire Wire Line
 	9550 3750 9750 3750
 Text Notes 8850 3950 0    50   ~ 0
 Output buffer
-Wire Wire Line
-	7850 3750 8350 3750
 $Comp
 L power:GND #PWR0135
 U 1 1 603B9D4E
@@ -1213,6 +1211,11 @@ F 3 "" H 2250 7250 50  0001 C CNN
 	1    2250 7250
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7850 3750 7950 3750
+Wire Wire Line
+	7950 3750 8350 3750
+Connection ~ 7950 3750
 Wire Bus Line
 	6100 2050 6100 2800
 Wire Bus Line
