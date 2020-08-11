@@ -496,7 +496,7 @@ U 1 1 5FC2FF98
 P 3050 1150
 F 0 "U101" H 3050 1392 50  0000 C CNN
 F 1 "L7805" H 3050 1301 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3075 1000 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3075 1000 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3050 1100 50  0001 C CNN
 	1    3050 1150
 	1    0    0    -1  
@@ -761,12 +761,12 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TL082 U103
 U 1 1 6038C1EA
-P 8750 2050
-F 0 "U103" H 8750 2417 50  0000 C CNN
-F 1 "TL082" H 8750 2326 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8750 2050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8750 2050 50  0001 C CNN
-	1    8750 2050
+P 8750 3750
+F 0 "U103" H 8750 4117 50  0000 C CNN
+F 1 "TL082" H 8750 4026 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8750 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8750 3750 50  0001 C CNN
+	1    8750 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -806,12 +806,12 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TL082 U103
 U 2 1 603AFABE
-P 8750 3750
-F 0 "U103" H 8750 4117 50  0000 C CNN
-F 1 "TL082" H 8750 4026 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8750 3750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8750 3750 50  0001 C CNN
-	2    8750 3750
+P 8750 2050
+F 0 "U103" H 8750 2417 50  0000 C CNN
+F 1 "TL082" H 8750 2326 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8750 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8750 2050 50  0001 C CNN
+	2    8750 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1216,8 +1216,82 @@ Wire Wire Line
 Wire Wire Line
 	7950 3750 8350 3750
 Connection ~ 7950 3750
+$Comp
+L Device:C C106
+U 1 1 60C2F6BD
+P 2550 2700
+AR Path="/60C2F6BD" Ref="C106"  Part="1" 
+AR Path="/5F345A0C/60C2F6BD" Ref="C?"  Part="1" 
+F 0 "C106" V 2700 2700 50  0000 C CNN
+F 1 "100n" V 2800 2700 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 2588 2550 50  0001 C CNN
+F 3 "~" H 2550 2700 50  0001 C CNN
+	1    2550 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 60C2F6C3
+P 2550 2850
+AR Path="/60C2F6C3" Ref="#PWR0129"  Part="1" 
+AR Path="/5F345A0C/60C2F6C3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0129" H 2550 2600 50  0001 C CNN
+F 1 "GND" H 2555 2677 50  0000 C CNN
+F 2 "" H 2550 2850 50  0001 C CNN
+F 3 "" H 2550 2850 50  0001 C CNN
+	1    2550 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C107
+U 1 1 60C32A60
+P 2950 2700
+AR Path="/60C32A60" Ref="C107"  Part="1" 
+AR Path="/5F345A0C/60C32A60" Ref="C?"  Part="1" 
+F 0 "C107" V 3100 2700 50  0000 C CNN
+F 1 "100n" V 3200 2700 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 2988 2550 50  0001 C CNN
+F 3 "~" H 2950 2700 50  0001 C CNN
+	1    2950 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 60C32A66
+P 2950 2850
+AR Path="/60C32A66" Ref="#PWR0130"  Part="1" 
+AR Path="/5F345A0C/60C32A66" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0130" H 2950 2600 50  0001 C CNN
+F 1 "GND" H 2955 2677 50  0000 C CNN
+F 2 "" H 2950 2850 50  0001 C CNN
+F 3 "" H 2950 2850 50  0001 C CNN
+	1    2950 2850
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	6100 2050 6100 2800
 Wire Bus Line
 	6100 2800 6100 3950
+$Comp
+L power:+12V #PWR0127
+U 1 1 60C35CE7
+P 2550 2550
+F 0 "#PWR0127" H 2550 2400 50  0001 C CNN
+F 1 "+12V" H 2565 2723 50  0000 C CNN
+F 2 "" H 2550 2550 50  0001 C CNN
+F 3 "" H 2550 2550 50  0001 C CNN
+	1    2550 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0128
+U 1 1 60C36318
+P 2950 2550
+F 0 "#PWR0128" H 2950 2650 50  0001 C CNN
+F 1 "-12V" H 2965 2723 50  0000 C CNN
+F 2 "" H 2950 2550 50  0001 C CNN
+F 3 "" H 2950 2550 50  0001 C CNN
+	1    2950 2550
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

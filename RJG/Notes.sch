@@ -270,13 +270,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 2600 7000 2600
 Wire Wire Line
-	6200 3100 6550 3100
-Wire Wire Line
-	6550 3100 6550 2700
-Wire Wire Line
-	6550 2700 7000 2700
-Wire Wire Line
-	6200 2500 7000 2500
+	6200 3100 6650 3100
 Wire Wire Line
 	7700 2300 7900 2300
 Text Label 7900 2300 2    50   ~ 0
@@ -1059,6 +1053,16 @@ Text Notes 7750 3250 0    50   ~ 0
 Switch between\nnotes CV
 Text Notes 9900 3350 0    50   ~ 0
 Random bit stream
+Wire Wire Line
+	6650 2500 7000 2500
+Wire Wire Line
+	6650 2500 6650 3100
+Wire Wire Line
+	7000 2700 6550 2700
+Wire Wire Line
+	6550 2700 6550 2500
+Wire Wire Line
+	6550 2500 6200 2500
 Wire Bus Line
 	5550 1450 8000 1450
 Wire Bus Line
