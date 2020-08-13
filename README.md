@@ -13,6 +13,7 @@ Little side project, don't expect mush updates.
 	- Hex Inverter
 * Sequencer
 	- µC
+	- random jazz generator
 * Random generator
 	- zener
 	- µC
