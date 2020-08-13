@@ -1346,7 +1346,7 @@ Gate
 Text Label 5250 3050 2    50   ~ 0
 Gate
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO1
+L logo:Logo_telec LOGO1
 U 1 1 60E67084
 P 3350 6950
 F 0 "LOGO1" H 3350 7225 50  0001 C CNN
