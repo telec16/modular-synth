@@ -620,7 +620,7 @@ U 1 1 5F10EFA0
 P 7650 2450
 F 0 "RV2" V 7550 2450 50  0000 C CNN
 F 1 "100k" V 7650 2450 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole" H 7650 2450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7650 2450 50  0001 C CNN
 F 3 "~" H 7650 2450 50  0001 C CNN
 	1    7650 2450
 	0    1    1    0   
@@ -631,7 +631,7 @@ U 1 1 5F10FFC6
 P 7650 2900
 F 0 "RV3" V 7550 2900 50  0000 C CNN
 F 1 "100k" V 7650 2900 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole" H 7650 2900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7650 2900 50  0001 C CNN
 F 3 "~" H 7650 2900 50  0001 C CNN
 	1    7650 2900
 	0    1    1    0   
@@ -642,7 +642,7 @@ U 1 1 5F0BFA63
 P 4750 2600
 F 0 "RV1" H 4950 2700 50  0000 R CNN
 F 1 "100k" V 4750 2700 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole" H 4750 2600 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4750 2600 50  0001 C CNN
 F 3 "~" H 4750 2600 50  0001 C CNN
 	1    4750 2600
 	1    0    0    -1  
@@ -653,7 +653,7 @@ U 1 1 5F110D7D
 P 8300 3000
 F 0 "RV4" H 8230 3046 50  0000 R CNN
 F 1 "100k" V 8300 3100 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole" H 8300 3000 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 8300 3000 50  0001 C CNN
 F 3 "~" H 8300 3000 50  0001 C CNN
 	1    8300 3000
 	-1   0    0    -1  
