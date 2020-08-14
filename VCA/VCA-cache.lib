@@ -252,6 +252,7 @@ F1 "logo_Logo_telec" -3 224 50 H I C CNN
 F2 "" 0 400 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
 DRAW
+T 0 0 -200 50 0 0 0 telec Normal 0 C C
 S -159 -149 154 167 0 1 0 f
 S -159 166 -116 127 0 1 0 F
 S -127 -90 -84 -129 1 1 0 F
