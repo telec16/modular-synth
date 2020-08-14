@@ -681,15 +681,13 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9600 2800 9700 2800
-Wire Wire Line
-	9700 3350 8900 3350
+	10250 3350 8900 3350
 Wire Wire Line
 	8900 3350 8900 2900
 Wire Wire Line
 	8900 2900 9000 2900
 Wire Wire Line
-	9700 3350 9700 2800
+	10250 3350 10250 2800
 $Comp
 L power:+12V #PWR013
 U 1 1 5F11DF1C
@@ -919,7 +917,7 @@ Wire Wire Line
 Connection ~ 8300 2700
 Text Label 6350 2700 0    50   ~ 0
 Hard
-Text Label 10050 2800 2    50   ~ 0
+Text Label 10600 2800 2    50   ~ 0
 Envelope
 Text Label 8400 2700 0    50   ~ 0
 Cap
@@ -927,12 +925,12 @@ Wire Wire Line
 	8650 2700 9000 2700
 Connection ~ 8650 2700
 Wire Wire Line
-	9700 2800 10050 2800
-Connection ~ 9700 2800
-Text Label 9050 5800 0    50   ~ 0
+	10250 2800 10600 2800
+Connection ~ 10250 2800
+Text Label 8700 5800 0    50   ~ 0
 Envelope
 Wire Wire Line
-	9400 5800 9050 5800
+	9400 5800 8700 5800
 NoConn ~ 9400 5900
 NoConn ~ 9400 5700
 NoConn ~ 9400 5600
@@ -952,10 +950,8 @@ Wire Wire Line
 	9400 5400 9300 5400
 Wire Wire Line
 	9300 5400 9300 5450
-Text Label 9050 4850 0    50   ~ 0
+Text Label 8700 4850 0    50   ~ 0
 Hard
-Wire Wire Line
-	9400 4850 9050 4850
 NoConn ~ 9400 4950
 NoConn ~ 9400 4750
 NoConn ~ 9400 4650
@@ -1149,8 +1145,6 @@ F 3 "~" H 10700 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10700 1150 10700 750 
-Text Label 10700 750  3    50   ~ 0
-Envelope
 $Comp
 L Device:LED D9
 U 1 1 5F2E0CEE
@@ -1160,7 +1154,7 @@ F 1 "LED" V 9598 1483 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 9650 1600 50  0001 C CNN
 F 3 "~" H 9650 1600 50  0001 C CNN
 	1    9650 1600
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR034
@@ -1187,7 +1181,7 @@ $EndComp
 Wire Wire Line
 	9650 1150 9650 750 
 Text Label 9650 750  3    50   ~ 0
-~IN
+IN
 $Comp
 L Connector:Screw_Terminal_01x03 J1
 U 1 1 5FC53096
@@ -1317,4 +1311,45 @@ Text Notes 7550 2750 0    50   ~ 0
 Decay
 Text Notes 8200 2600 0    50   ~ 0
 Release
+$Comp
+L Device:R R17
+U 1 1 6055851E
+P 9950 2800
+F 0 "R17" V 10050 2800 50  0000 C CNN
+F 1 "1k" V 9950 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9880 2800 50  0001 C CNN
+F 3 "~" H 9950 2800 50  0001 C CNN
+	1    9950 2800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	10100 2800 10250 2800
+$Comp
+L Device:R R18
+U 1 1 6055A415
+P 9100 4850
+F 0 "R18" V 9200 4850 50  0000 C CNN
+F 1 "1k" V 9100 4850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9030 4850 50  0001 C CNN
+F 3 "~" H 9100 4850 50  0001 C CNN
+	1    9100 4850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8700 4850 8950 4850
+Wire Wire Line
+	9250 4850 9400 4850
+Text Label 10700 750  3    50   ~ 0
+PEnvelope
+Wire Wire Line
+	9600 2800 9700 2800
+Wire Wire Line
+	9700 2800 9700 2650
+Wire Wire Line
+	9700 2650 10100 2650
+Connection ~ 9700 2800
+Wire Wire Line
+	9700 2800 9800 2800
+Text Label 10100 2650 2    50   ~ 0
+PEnvelope
 $EndSCHEMATC
