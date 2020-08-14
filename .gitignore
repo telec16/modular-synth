@@ -37,7 +37,7 @@ escue-backup/
 bom/
 
 # Gerber export output
-out/
+gerber/
 
 ### LTspice ###
 # gitignore template for LTspice
