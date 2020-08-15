@@ -1305,11 +1305,11 @@ F 3 "" H 1400 7250 50  0001 C CNN
 $EndComp
 Text Notes 7550 2250 0    50   ~ 0
 Attack
-Text Notes 4650 2200 0    50   ~ 0
+Text Notes 4800 2700 0    50   ~ 0
 Sustain
 Text Notes 7550 2750 0    50   ~ 0
 Decay
-Text Notes 8200 2600 0    50   ~ 0
+Text Notes 8300 3200 0    50   ~ 0
 Release
 $Comp
 L Device:R R17
@@ -1352,4 +1352,25 @@ Wire Wire Line
 	9700 2800 9800 2800
 Text Label 10100 2650 2    50   ~ 0
 PEnvelope
+Text Notes 3350 3950 0    50   ~ 0
+Simple comparators
+Text Notes 3800 1600 0    50   ~ 0
+Hysteresis circuit\nwith reset input
+Text Notes 4650 2100 0    50   ~ 0
+Overidable\nsustain level
+Text Notes 5650 2150 0    50   ~ 0
+Buffer +\ncompensate for the\nvoltage drop of D7/D8
+Text Notes 9650 3300 0    50   ~ 0
+Output buffer
+$Comp
+L logo:Logo_telec LOGO1
+U 1 1 605DA57A
+P 1900 6950
+F 0 "LOGO1" H 1890 7247 50  0001 C CNN
+F 1 "Logo_telec" H 1897 7174 50  0001 C CNN
+F 2 "logo:telec-8" H 1900 7350 50  0001 C CNN
+F 3 "" H 1900 7350 50  0001 C CNN
+	1    1900 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -264,6 +264,29 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# logo_Logo_telec
+#
+DEF logo_Logo_telec LOGO 0 40 Y Y 1 F N
+F0 "LOGO" -10 297 50 H I C CNN
+F1 "logo_Logo_telec" -3 224 50 H I C CNN
+F2 "logo:telec-16" 0 400 50 H I C CNN
+F3 "" 0 400 50 H I C CNN
+DRAW
+T 0 0 -200 50 0 0 0 telec Normal 0 C C
+S -159 -149 154 167 0 1 0 f
+S -159 166 -116 127 0 1 0 F
+S -127 -90 -84 -129 1 1 0 F
+S -115 127 -72 88 1 1 0 F
+S -83 -52 84 -91 1 1 0 F
+S -76 92 -33 53 1 1 0 f
+S -48 39 46 -37 1 1 0 F
+S 26 91 69 52 1 1 0 f
+S 64 126 107 87 1 1 0 F
+S 78 -90 121 -129 1 1 0 F
+S 109 166 152 127 1 1 0 F
+ENDDRAW
+ENDDEF
+#
 # power_+12V
 #
 DEF power_+12V #PWR 0 0 Y Y 1 F P
