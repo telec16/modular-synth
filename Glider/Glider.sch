@@ -469,17 +469,6 @@ Wire Notes Line
 Text Notes 550  6250 0    50   ~ 0
 Front Panel
 $Comp
-L Device:R_POT RV1
-U 1 1 5F360F90
-P 4350 2900
-F 0 "RV1" V 4250 2950 50  0000 R CNN
-F 1 "1M" V 4350 2950 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4350 2900 50  0001 C CNN
-F 3 "~" H 4350 2900 50  0001 C CNN
-	1    4350 2900
-	0    1    1    0   
-$EndComp
-$Comp
 L Diode:1N4148 D2
 U 1 1 5F367197
 P 4550 2200
@@ -528,12 +517,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 2900 3400 2900
 Wire Wire Line
-	4350 3050 4150 3050
+	4350 3050 4550 3050
 Wire Wire Line
-	4150 3050 4150 2900
-Connection ~ 4150 2900
-Wire Wire Line
-	4150 2900 4200 2900
+	4550 3050 4550 2900
 Wire Wire Line
 	2750 2800 2650 2800
 Wire Wire Line
@@ -556,7 +542,7 @@ Connection ~ 4750 2400
 Wire Wire Line
 	4750 2400 4750 2750
 Wire Wire Line
-	4500 2900 4750 2900
+	4500 2900 4550 2900
 Connection ~ 4750 2900
 Wire Wire Line
 	4750 2900 4750 3000
@@ -584,8 +570,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 2900 3850 2900
 Connection ~ 3850 2900
-Wire Wire Line
-	3850 2900 4150 2900
 $Comp
 L Device:C C3
 U 1 1 5FE43DAF
@@ -740,17 +724,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV2
-U 1 1 5FE8ECA1
-P 4350 4850
-F 0 "RV2" V 4250 4900 50  0000 R CNN
-F 1 "1M" V 4350 4900 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4350 4850 50  0001 C CNN
-F 3 "~" H 4350 4850 50  0001 C CNN
-	1    4350 4850
-	0    1    1    0   
-$EndComp
-$Comp
 L Diode:1N4148 D5
 U 1 1 5FE8ECA7
 P 4550 4150
@@ -799,12 +772,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 4850 3400 4850
 Wire Wire Line
-	4350 5000 4150 5000
+	4350 5000 4550 5000
 Wire Wire Line
-	4150 5000 4150 4850
-Connection ~ 4150 4850
-Wire Wire Line
-	4150 4850 4200 4850
+	4550 5000 4550 4850
 Wire Wire Line
 	2750 4750 2650 4750
 Wire Wire Line
@@ -827,7 +797,7 @@ Connection ~ 4750 4350
 Wire Wire Line
 	4750 4350 4750 4700
 Wire Wire Line
-	4500 4850 4750 4850
+	4500 4850 4550 4850
 Connection ~ 4750 4850
 Wire Wire Line
 	4750 4850 4750 4950
@@ -855,8 +825,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 4850 3850 4850
 Connection ~ 3850 4850
-Wire Wire Line
-	3850 4850 4150 4850
 $Comp
 L Device:C C4
 U 1 1 5FE8ECE2
@@ -982,4 +950,36 @@ Text Label 6350 4000 0    50   ~ 0
 OUT2
 Text Notes 7050 6950 0    50   ~ 0
 From Harald Antes schematic,\nfrom Ives Uson
+$Comp
+L Device:R_POT RV2
+U 1 1 5FE8ECA1
+P 4350 4850
+F 0 "RV2" V 4250 4900 50  0000 R CNN
+F 1 "1M" V 4350 4900 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4350 4850 50  0001 C CNN
+F 3 "~" H 4350 4850 50  0001 C CNN
+	1    4350 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5F360F90
+P 4350 2900
+F 0 "RV1" V 4250 2950 50  0000 R CNN
+F 1 "1M" V 4350 2950 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 4350 2900 50  0001 C CNN
+F 3 "~" H 4350 2900 50  0001 C CNN
+	1    4350 2900
+	0    1    1    0   
+$EndComp
+Connection ~ 4550 2900
+Wire Wire Line
+	4550 2900 4750 2900
+Wire Wire Line
+	3850 2900 4200 2900
+Connection ~ 4550 4850
+Wire Wire Line
+	4550 4850 4750 4850
+Wire Wire Line
+	3850 4850 4200 4850
 $EndSCHEMATC
