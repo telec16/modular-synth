@@ -9,31 +9,32 @@ Little side project, don't expect mush updates.
 * VCO
 	- 3340
 	- Schmitt inverter
+	- Opamp ![50%](https://progress-bar.dev/80)
 * LFO
 	- Hex Inverter
 * Sequencer
 	- µC
-	- random jazz generator
+	- random jazz generator ![50%](https://progress-bar.dev/90)
 * Random generator
 	- zener
 	- µC
 * ADSR
-	- Opamp
+	- Opamp ![50%](https://progress-bar.dev/99)
 * VCA
-	- LM13700
+	- LM13700 ![50%](https://progress-bar.dev/99)
 	- Vactrol
 * Quantizer (CV correction)
-	- µC
+	- µC ![50%](https://progress-bar.dev/10)
 * VCF
 	- ?
 * Drum kit
 	- ???
 * Frequency multiplier/divider
-	- CD4046 PLL
+	- CD4046 PLL ![50%](https://progress-bar.dev/90)
 * Wavefolder
-	- Bipolar
+	- Bipolar ![50%](https://progress-bar.dev/0)
 * CV Glider
-	- RC circuit
+	- RC circuit ![50%](https://progress-bar.dev/99)
 
 ## Instruments
 
