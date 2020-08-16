@@ -39,7 +39,10 @@ Little side project, don't expect mush updates.
 	- Bipolar ![10%](https://progress-bar.dev/10)
 * CV Glider
 	- RC circuit ![75%](https://progress-bar.dev/75)
+* Scope
+	- µC ![55%](https://progress-bar.dev/55)
 
 ## Instruments
 
+* MiniSynth ![5%](https://progress-bar.dev/5)
 * MIDI I/O + CV Out keypad
