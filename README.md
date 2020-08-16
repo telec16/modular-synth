@@ -34,7 +34,7 @@ Little side project, don't expect mush updates.
 * Drum kit
 	- ???
 * Frequency multiplier/divider
-	- CD4046 PLL ![65%](https://progress-bar.dev/65)
+	- CD4046 PLL ![65%](https://progress-bar.dev/75)
 * Wavefolder
 	- Bipolar ![10%](https://progress-bar.dev/10)
 * CV Glider
