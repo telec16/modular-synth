@@ -13,7 +13,7 @@ Little side project, don't expect mush updates.
 * VCO
 	- 3340
 	- Schmitt inverter
-	- Opamp ![65%](https://progress-bar.dev/65)
+	- Opamp ![65%](https://progress-bar.dev/75)
 * LFO
 	- Hex Inverter
 * Sequencer
