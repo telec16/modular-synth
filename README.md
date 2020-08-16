@@ -18,7 +18,7 @@ Little side project, don't expect mush updates.
 	- Hex Inverter
 * Sequencer
 	- µC
-	- random jazz generator ![70%](https://progress-bar.dev/70)
+	- random jazz generator ![70%](https://progress-bar.dev/75)
 * Random generator
 	- zener
 	- µC
@@ -44,5 +44,5 @@ Little side project, don't expect mush updates.
 
 ## Instruments
 
-* MiniSynth ![5%](https://progress-bar.dev/5)
+* MiniSynth ![50%](https://progress-bar.dev/50)
 * MIDI I/O + CV Out keypad
