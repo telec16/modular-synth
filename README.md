@@ -4,37 +4,41 @@ Little side project, don't expect mush updates.
 
 # List of stuff I want to make
 
+| 0%   | 10% | 20%       | 50%    | 65%     | 70%           | 75%  | 80%   | 100% |
+|----- |---- |---------- |------- |-------- |-------------- |----- |------ |----- |
+| Idea | POC | Schematic | Layout | Artwork | Final checkup | Prod | Tests | Done |
+
 ## Modules
 
 * VCO
 	- 3340
 	- Schmitt inverter
-	- Opamp ![50%](https://progress-bar.dev/80)
+	- Opamp ![65%](https://progress-bar.dev/65)
 * LFO
 	- Hex Inverter
 * Sequencer
 	- µC
-	- random jazz generator ![50%](https://progress-bar.dev/90)
+	- random jazz generator ![70%](https://progress-bar.dev/70)
 * Random generator
 	- zener
 	- µC
 * ADSR
-	- Opamp ![50%](https://progress-bar.dev/99)
+	- Opamp ![75%](https://progress-bar.dev/75)
 * VCA
-	- LM13700 ![50%](https://progress-bar.dev/99)
+	- LM13700 ![75%](https://progress-bar.dev/75)
 	- Vactrol
 * Quantizer (CV correction)
-	- µC ![50%](https://progress-bar.dev/10)
+	- µC ![20%](https://progress-bar.dev/20)
 * VCF
 	- ?
 * Drum kit
 	- ???
 * Frequency multiplier/divider
-	- CD4046 PLL ![50%](https://progress-bar.dev/90)
+	- CD4046 PLL ![65%](https://progress-bar.dev/65)
 * Wavefolder
-	- Bipolar ![50%](https://progress-bar.dev/0)
+	- Bipolar ![10%](https://progress-bar.dev/10)
 * CV Glider
-	- RC circuit ![50%](https://progress-bar.dev/99)
+	- RC circuit ![75%](https://progress-bar.dev/75)
 
 ## Instruments
 
