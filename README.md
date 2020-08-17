@@ -28,7 +28,7 @@ Little side project, don't expect mush updates.
 	- LM13700 ![75%](https://progress-bar.dev/75)
 	- Vactrol
 * Quantizer (CV correction)
-	- µC ![20%](https://progress-bar.dev/30)
+	- µC ![65%](https://progress-bar.dev/65)
 * VCF
 	- ?
 * Drum kit
