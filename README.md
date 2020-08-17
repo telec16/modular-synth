@@ -36,7 +36,7 @@ Little side project, don't expect mush updates.
 * Frequency multiplier/divider
 	- CD4046 PLL ![65%](https://progress-bar.dev/75)
 * Wavefolder
-	- Bipolar ![10%](https://progress-bar.dev/10)
+	- Bipolar ![40%](https://progress-bar.dev/40)
 * CV Glider
 	- RC circuit ![75%](https://progress-bar.dev/75)
 * Scope
