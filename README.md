@@ -1,6 +1,6 @@
 # Telec's Modular Synth
 
-Little side project, don't expect mush updates.
+Little side project, don't expect much updates.
 
 # List of stuff I want to make
 
@@ -37,6 +37,7 @@ Little side project, don't expect mush updates.
 	- CD4046 PLL ![65%](https://progress-bar.dev/75)
 * Wavefolder
 	- Bipolar ![40%](https://progress-bar.dev/40)
+	- Opamp ![40%](https://progress-bar.dev/40)
 * CV Glider
 	- RC circuit ![75%](https://progress-bar.dev/75)
 * Scope
