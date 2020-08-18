@@ -41,7 +41,7 @@ Little side project, don't expect much updates.
 * CV Glider
 	- RC circuit ![75%](https://progress-bar.dev/75)
 * Scope
-	- µC ![65%](https://progress-bar.dev/65)
+	- µC ![75%](https://progress-bar.dev/75)
 
 ## Instruments
 
