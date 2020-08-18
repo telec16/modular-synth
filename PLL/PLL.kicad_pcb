@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 91)
+    (drawings 96)
     (tracks 319)
     (zones 0)
     (modules 78)
@@ -4377,6 +4377,13 @@
       (net 2 +12V))
   )
 
+  (gr_text "PCB ref here:" (at 26.6 59.3) (layer F.SilkS) (tstamp 5F42B623)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_line (start 19.5 62.8) (end 19.5 58.5) (layer F.SilkS) (width 0.15) (tstamp 5F42B622))
+  (gr_line (start 34.5 62.8) (end 19.5 62.8) (layer F.SilkS) (width 0.15) (tstamp 5F42B621))
+  (gr_line (start 34.5 58.5) (end 34.5 62.8) (layer F.SilkS) (width 0.15) (tstamp 5F42B620))
+  (gr_line (start 19.5 58.5) (end 34.5 58.5) (layer F.SilkS) (width 0.15) (tstamp 5F42B61F))
   (gr_text - (at 13.7 29.5) (layer F.SilkS) (tstamp 5F3FB016)
     (effects (font (size 2 2) (thickness 0.3)))
   )

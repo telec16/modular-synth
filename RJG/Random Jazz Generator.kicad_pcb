@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 343)
+    (drawings 348)
     (tracks 841)
     (zones 0)
     (modules 132)
@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.762)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
@@ -6431,6 +6431,13 @@
     )
   )
 
+  (gr_text "PCB ref here:" (at 166.5 14.3) (layer B.SilkS) (tstamp 5F42B623)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_line (start 156.5 13.4) (end 156.5 17.7) (layer B.SilkS) (width 0.15) (tstamp 5F42B622))
+  (gr_line (start 172.3 13.4) (end 156.5 13.4) (layer B.SilkS) (width 0.15) (tstamp 5F42B621))
+  (gr_line (start 172.3 17.7) (end 172.3 13.4) (layer B.SilkS) (width 0.15) (tstamp 5F42B620))
+  (gr_line (start 156.5 17.7) (end 172.3 17.7) (layer B.SilkS) (width 0.15) (tstamp 5F42B61F))
   (gr_line (start 143.5 147.8) (end 148 150.7) (layer F.SilkS) (width 0.25) (tstamp 5F346A3B))
   (gr_line (start 148.6 158.2) (end 152.8 159.4) (layer F.SilkS) (width 0.25) (tstamp 5F346A3A))
   (gr_line (start 148 150.7) (end 148.6 158.2) (layer F.SilkS) (width 0.25) (tstamp 5F346A39))
@@ -7299,8 +7306,6 @@
   (segment (start 143.220351 166.106065) (end 147.406065 166.106065) (width 0.762) (layer F.Cu) (net 61))
   (segment (start 148.9 170) (end 148.7 167.4) (width 0.762) (layer F.Cu) (net 61))
   (segment (start 148.7 167.4) (end 148.9 164.840819) (width 0.762) (layer F.Cu) (net 61))
-  (segment (start 148.4 173.04) (end 151.44 170) (width 0.762) (layer F.Cu) (net 160))
-  (segment (start 148.4 175.6) (end 148.4 173.04) (width 0.762) (layer F.Cu) (net 160))
   (segment (start 21.44 136.62) (end 21.36 136.7) (width 1.016) (layer B.Cu) (net 63))
   (segment (start 21.44 129.5) (end 21.44 136.62) (width 1.016) (layer B.Cu) (net 63))
   (segment (start 98.98 109.28) (end 96.7 107) (width 0.762) (layer B.Cu) (net 64))
@@ -7827,6 +7832,8 @@
   (segment (start 50 151.35) (end 50 153.4) (width 0.762) (layer B.Cu) (net 157))
   (segment (start 15.2 151.55) (end 15.2 153.6) (width 0.762) (layer B.Cu) (net 158))
   (segment (start 15.2 168) (end 15.2 170.05) (width 0.762) (layer B.Cu) (net 159))
+  (segment (start 148.4 173.04) (end 151.44 170) (width 0.762) (layer F.Cu) (net 160))
+  (segment (start 148.4 175.6) (end 148.4 173.04) (width 0.762) (layer F.Cu) (net 160))
   (segment (start 156.24 165.2) (end 157.3 165.2) (width 0.762) (layer F.Cu) (net 160))
   (segment (start 151.44 170) (end 156.24 165.2) (width 0.762) (layer F.Cu) (net 160))
 
