@@ -297,12 +297,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0420
 U 1 1 5F69CBD5
-P 7600 5200
-F 0 "#PWR0420" H 7600 4950 50  0001 C CNN
-F 1 "GND" H 7605 5027 50  0000 C CNN
-F 2 "" H 7600 5200 50  0001 C CNN
-F 3 "" H 7600 5200 50  0001 C CNN
-	1    7600 5200
+P 7500 5200
+F 0 "#PWR0420" H 7500 4950 50  0001 C CNN
+F 1 "GND" H 7505 5027 50  0000 C CNN
+F 2 "" H 7500 5200 50  0001 C CNN
+F 3 "" H 7500 5200 50  0001 C CNN
+	1    7500 5200
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7450 4600
@@ -511,19 +511,14 @@ Text HLabel 10550 1300 2    50   Input ~ 0
 Text HLabel 10550 650  2    50   Input ~ 0
 Gate
 Wire Wire Line
-	7450 5100 7600 5100
-Connection ~ 7600 5100
+	7450 5100 7500 5100
+Connection ~ 7500 5100
 Wire Wire Line
-	7600 5100 7600 5200
+	7500 5100 7500 5200
 Wire Wire Line
-	7450 5000 7600 5000
-Connection ~ 7600 5000
+	7450 5000 7500 5000
 Wire Wire Line
-	7600 5000 7600 5100
-Wire Wire Line
-	7450 4800 7500 4800
-Wire Wire Line
-	7600 4800 7600 5000
+	7500 5000 7500 5100
 $Comp
 L power:GND #PWR?
 U 1 1 5F8F2AEB
@@ -1340,7 +1335,7 @@ Text Notes 800  5850 0    50   ~ 0
 Random bits
 Text Notes 4200 5200 0    50   ~ 0
 Chorus/Impro\nselector
-Text Notes 7750 4700 0    50   ~ 0
+Text Notes 6500 5050 0    50   ~ 0
 Chorus duration\npattern ROM
 Text Notes 7050 1100 0    50   ~ 0
 Note step counter
@@ -1486,9 +1481,6 @@ Wire Wire Line
 	7450 3200 7500 3200
 Wire Wire Line
 	7500 3200 7500 3300
-Connection ~ 7500 4800
-Wire Wire Line
-	7500 4800 7600 4800
 Wire Wire Line
 	7450 3500 7500 3500
 Connection ~ 7500 3500
@@ -1506,9 +1498,6 @@ Wire Wire Line
 	7500 3300 7500 3400
 Wire Wire Line
 	7450 4300 7500 4300
-Connection ~ 7500 4300
-Wire Wire Line
-	7500 4300 7500 4800
 Wire Wire Line
 	5800 3800 5800 3200
 Wire Wire Line
@@ -1566,4 +1555,33 @@ Text Notes 5300 3150 0    50   ~ 0
 Bit order doesn't\nreally matter -\noptimized for\nlayout
 Text Notes 8250 4200 0    50   ~ 0
 Bit order doesn't\nreally matter -\noptimized for\nlayout
+$Comp
+L power:GND #PWR?
+U 1 1 5F42CB84
+P 7600 4500
+F 0 "#PWR?" H 7600 4250 50  0001 C CNN
+F 1 "GND" H 7605 4327 50  0000 C CNN
+F 2 "" H 7600 4500 50  0001 C CNN
+F 3 "" H 7600 4500 50  0001 C CNN
+	1    7600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4300 7600 4300
+Wire Wire Line
+	7600 4300 7600 4500
+Connection ~ 7500 4300
+$Comp
+L power:+5V #PWR?
+U 1 1 5F439D1A
+P 7550 4800
+F 0 "#PWR?" H 7550 4650 50  0001 C CNN
+F 1 "+5V" H 7565 4973 50  0000 C CNN
+F 2 "" H 7550 4800 50  0001 C CNN
+F 3 "" H 7550 4800 50  0001 C CNN
+	1    7550 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 4800 7450 4800
 $EndSCHEMATC
