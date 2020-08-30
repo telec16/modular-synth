@@ -57,7 +57,7 @@ gerber/
 personnal*
 *.zip
 raw/
-wave/
+*.wav
 *.jpg
 
 
