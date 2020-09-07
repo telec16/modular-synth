@@ -25,7 +25,7 @@
 * ADSR
 	- Opamp ![80%](https://progress-bar.dev/80)
 * VCA
-	- LM13700 ![75%](https://progress-bar.dev/75)
+	- LM13700 ![100%](https://progress-bar.dev/100)
 	- Vactrol
 * Quantizer (CV correction)
 	- µC ![75%](https://progress-bar.dev/75)
