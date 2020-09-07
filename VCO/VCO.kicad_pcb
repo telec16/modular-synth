@@ -250,7 +250,7 @@
     (add_net "Net-(R7-Pad2)")
   )
 
-  (module logo:telec-16 (layer F.Cu) (tedit 5F396F93) (tstamp 5F3B4128)
+  (module logo:telec-16 (layer F.Cu) (tedit 5F396F93) (tstamp 5F53936F)
     (at 51.2 36.9)
     (path /60E67084)
     (fp_text reference LOGO1 (at 0 0) (layer F.SilkS) hide
@@ -3913,10 +3913,10 @@
     (arrow2a (pts (xy 12 215.5) (xy 13.126504 216.086421)))
     (arrow2b (pts (xy 12 215.5) (xy 13.126504 214.913579)))
   )
-  (gr_text -12V (at 47.6 12.5 45) (layer B.SilkS) (tstamp 5F3B205A)
+  (gr_text -12V (at 37.2 12.6 45) (layer B.SilkS) (tstamp 5F3B205A)
     (effects (font (size 2 2) (thickness 0.5)) (justify left mirror))
   )
-  (gr_text +12V (at 37.2 12.6 45) (layer B.SilkS) (tstamp 5F3808A9)
+  (gr_text +12V (at 48 12.6 45) (layer B.SilkS) (tstamp 5F3808A9)
     (effects (font (size 2 2) (thickness 0.5)) (justify left mirror))
   )
   (dimension 25 (width 0.15) (layer F.Fab) (tstamp 5F38087F)

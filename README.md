@@ -13,7 +13,8 @@
 * VCO
 	- 3340
 	- Schmitt inverter
-	- Opamp ![80%](https://progress-bar.dev/80)
+	- Opamp V1 ![80%](https://progress-bar.dev/80)
+	- Opamp V2 ![40%](https://progress-bar.dev/40)
 * LFO
 	- Hex Inverter
 * Sequencer
@@ -23,7 +24,7 @@
 	- zener
 	- µC
 * ADSR
-	- Opamp ![80%](https://progress-bar.dev/80)
+	- Opamp ![100%](https://progress-bar.dev/100)
 * VCA
 	- LM13700 ![100%](https://progress-bar.dev/100)
 	- Vactrol
@@ -34,12 +35,13 @@
 * Drum kit
 	- ???
 * Frequency multiplier/divider
-	- CD4046 PLL ![80%](https://progress-bar.dev/80)
+	- CD4046 PLL V1 ![100%](https://progress-bar.dev/100)
+	- CD4046 PLL V2 ![50%](https://progress-bar.dev/50)
 * Wavefolder
 	- Bipolar ![100%](https://progress-bar.dev/100)
 	- Opamp ![100%](https://progress-bar.dev/100)
 * CV Glider
-	- RC circuit ![80%](https://progress-bar.dev/80)
+	- RC circuit ![100%](https://progress-bar.dev/100)
 * Scope
 	- µC ![75%](https://progress-bar.dev/75)
 
