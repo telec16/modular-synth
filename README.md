@@ -1,6 +1,6 @@
 # Telec's Modular Synth
 
-Little side project, don't expect much updates.
+~~Little side project, don't expect much updates.~~
 
 # List of stuff I want to make
 
@@ -13,17 +13,17 @@ Little side project, don't expect much updates.
 * VCO
 	- 3340
 	- Schmitt inverter
-	- Opamp ![65%](https://progress-bar.dev/75)
+	- Opamp ![80%](https://progress-bar.dev/80)
 * LFO
 	- Hex Inverter
 * Sequencer
 	- µC
-	- random jazz generator ![70%](https://progress-bar.dev/75)
+	- random jazz generator ![75%](https://progress-bar.dev/75)
 * Random generator
 	- zener
 	- µC
 * ADSR
-	- Opamp ![75%](https://progress-bar.dev/75)
+	- Opamp ![80%](https://progress-bar.dev/80)
 * VCA
 	- LM13700 ![75%](https://progress-bar.dev/75)
 	- Vactrol
@@ -34,12 +34,12 @@ Little side project, don't expect much updates.
 * Drum kit
 	- ???
 * Frequency multiplier/divider
-	- CD4046 PLL ![65%](https://progress-bar.dev/75)
+	- CD4046 PLL ![80%](https://progress-bar.dev/80)
 * Wavefolder
-	- Bipolar ![75%](https://progress-bar.dev/75)
-	- Opamp ![75%](https://progress-bar.dev/75)
+	- Bipolar ![100%](https://progress-bar.dev/100)
+	- Opamp ![100%](https://progress-bar.dev/100)
 * CV Glider
-	- RC circuit ![75%](https://progress-bar.dev/75)
+	- RC circuit ![80%](https://progress-bar.dev/80)
 * Scope
 	- µC ![75%](https://progress-bar.dev/75)
 
