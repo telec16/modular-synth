@@ -276,7 +276,7 @@ P 5350 2450
 AR Path="/5F3D3D6C" Ref="C?"  Part="1" 
 AR Path="/5F345A0C/5F3D3D6C" Ref="C205"  Part="1" 
 F 0 "C205" V 5500 2450 50  0000 C CNN
-F 1 "220n" V 5600 2450 50  0000 C CNN
+F 1 "100n" V 5600 2450 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 5388 2300 50  0001 C CNN
 F 3 "~" H 5350 2450 50  0001 C CNN
 	1    5350 2450
@@ -312,9 +312,9 @@ Connection ~ 4550 2700
 Wire Wire Line
 	4550 2700 3750 2700
 Text Notes 6400 1800 0    50   ~ 0
-Untested
+Tested - OK
 Text Notes 6450 2750 0    50   ~ 0
-Untested
+Tested - OK
 $Comp
 L Device:C C?
 U 1 1 5FC4D644
@@ -526,8 +526,6 @@ F 3 "" H 1250 1100 50  0001 C CNN
 	1    1250 1100
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	4650 3000 4650 3800
 Text Notes 5900 1650 0    50   ~ 0
 Random bit generator
 Text Notes 5800 2600 0    50   ~ 0
@@ -580,4 +578,8 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5750 2200 50  0001 C CNN
 	3    5750 2200
 	1    0    0    -1  
 $EndComp
+Text Notes 6100 2300 0    50   ~ 0
+150Hz
+Wire Bus Line
+	4650 3000 4650 3800
 $EndSCHEMATC

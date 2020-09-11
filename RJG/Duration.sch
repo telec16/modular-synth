@@ -568,11 +568,11 @@ AR Path="/5F9A422C" Ref="R?"  Part="1"
 AR Path="/5F42563C/5F9A422C" Ref="R?"  Part="1" 
 AR Path="/5F425067/5F9A422C" Ref="R403"  Part="1" 
 F 0 "R403" V 9450 2150 50  0000 L CNN
-F 1 "100k" V 9550 2150 50  0000 L CNN
+F 1 "10k" V 9550 2150 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9480 2250 50  0001 C CNN
 F 3 "~" H 9550 2250 50  0001 C CNN
 	1    9550 2250
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0405
@@ -730,11 +730,11 @@ AR Path="/5FB2C33B" Ref="R?"  Part="1"
 AR Path="/5F42563C/5FB2C33B" Ref="R?"  Part="1" 
 AR Path="/5F425067/5FB2C33B" Ref="R401"  Part="1" 
 F 0 "R401" V 9050 1100 50  0000 L CNN
-F 1 "100k" V 9150 1100 50  0000 L CNN
+F 1 "10k" V 9150 1100 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9080 1200 50  0001 C CNN
 F 3 "~" H 9150 1200 50  0001 C CNN
 	1    9150 1200
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0401
@@ -1038,7 +1038,7 @@ Connection ~ 1900 3400
 Wire Wire Line
 	1650 4200 2000 4200
 Wire Wire Line
-	1500 4100 1500 2700
+	1500 4100 1500 2600
 Wire Wire Line
 	1500 4100 2000 4100
 Wire Wire Line
@@ -1160,175 +1160,73 @@ Overflow
 Wire Wire Line
 	1050 5050 1400 5050
 Wire Wire Line
-	1500 2400 1500 2300
+	1500 2300 1500 2200
 Wire Wire Line
 	750  4950 1250 4950
 Wire Wire Line
-	1250 2400 1250 2300
+	1250 2300 1250 2200
 Wire Wire Line
-	1250 2300 1500 2300
-Connection ~ 1500 2300
+	1250 2200 1500 2200
+Connection ~ 1500 2200
 Wire Wire Line
-	1500 2300 1500 650 
+	1500 2200 1500 650 
 Wire Wire Line
-	1250 2700 1250 4950
+	1250 2600 1250 4950
 Connection ~ 1250 4950
 Wire Wire Line
 	1250 4950 1400 4950
 $Comp
 L Device:D D402
 U 1 1 601877A8
-P 1500 2550
-F 0 "D402" V 1700 2450 50  0000 L CNN
-F 1 "1N4148" H 1350 2650 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 2550 50  0001 C CNN
-F 3 "~" H 1500 2550 50  0001 C CNN
-	1    1500 2550
+P 1500 2450
+F 0 "D402" V 1700 2350 50  0000 L CNN
+F 1 "1N4148" H 1350 2550 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 2450 50  0001 C CNN
+F 3 "~" H 1500 2450 50  0001 C CNN
+	1    1500 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D D401
 U 1 1 60188789
-P 1250 2550
-F 0 "D401" V 1450 2450 50  0000 L CNN
-F 1 "1N4148" H 1100 2650 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1250 2550 50  0001 C CNN
-F 3 "~" H 1250 2550 50  0001 C CNN
-	1    1250 2550
+P 1250 2450
+F 0 "D401" V 1450 2350 50  0000 L CNN
+F 1 "1N4148" H 1100 2550 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1250 2450 50  0001 C CNN
+F 3 "~" H 1250 2450 50  0001 C CNN
+	1    1250 2450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1500 2300 1750 2300
+	1500 2200 1750 2200
 Wire Wire Line
-	1750 2300 1750 2400
+	1750 2200 1750 2300
 $Comp
 L Device:R R?
 U 1 1 601B31B5
-P 1750 2550
+P 1750 2450
 AR Path="/601B31B5" Ref="R?"  Part="1" 
 AR Path="/5F425067/601B31B5" Ref="R404"  Part="1" 
-F 0 "R404" H 1800 2650 50  0000 L CNN
-F 1 "100k" V 1750 2450 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1680 2550 50  0001 C CNN
-F 3 "~" H 1750 2550 50  0001 C CNN
-	1    1750 2550
+F 0 "R404" V 1850 2350 50  0000 L CNN
+F 1 "47k" V 1750 2400 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1680 2450 50  0001 C CNN
+F 3 "~" H 1750 2450 50  0001 C CNN
+	1    1750 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 601B3D6A
-P 1750 2700
+P 1750 2600
 AR Path="/601B3D6A" Ref="#PWR?"  Part="1" 
 AR Path="/5F425067/601B3D6A" Ref="#PWR0407"  Part="1" 
-F 0 "#PWR0407" H 1750 2450 50  0001 C CNN
-F 1 "GND" H 1755 2527 50  0000 C CNN
-F 2 "" H 1750 2700 50  0001 C CNN
-F 3 "" H 1750 2700 50  0001 C CNN
-	1    1750 2700
+F 0 "#PWR0407" H 1750 2350 50  0001 C CNN
+F 1 "GND" H 1755 2427 50  0000 C CNN
+F 2 "" H 1750 2600 50  0001 C CNN
+F 3 "" H 1750 2600 50  0001 C CNN
+	1    1750 2600
 	1    0    0    -1  
 $EndComp
-Wire Notes Line style solid
-	2250 2100 2250 2200
-Wire Notes Line style solid
-	2250 2200 2300 2200
-Wire Notes Line style solid
-	2300 2200 2300 2100
-Wire Notes Line style solid
-	2300 2100 2350 2100
-Wire Notes Line style solid
-	2350 2100 2350 2200
-Wire Notes Line style solid
-	2350 2200 2400 2200
-Wire Notes Line style solid
-	2400 2200 2400 2100
-Wire Notes Line style solid
-	2400 2100 2450 2100
-Wire Notes Line style solid
-	2450 2100 2450 2200
-Wire Notes Line style solid
-	2450 2200 2500 2200
-Wire Notes Line style solid
-	2500 2200 2500 2100
-Wire Notes Line style solid
-	2500 2100 2550 2100
-Wire Notes Line style solid
-	2550 2100 2550 2200
-Wire Notes Line style solid
-	2550 2200 2600 2200
-Wire Notes Line style solid
-	2600 2200 2600 2100
-Wire Notes Line style solid
-	2600 2100 2650 2100
-Wire Notes Line style solid
-	2650 2100 2650 2200
-Wire Notes Line style solid
-	2650 2200 2700 2200
-Wire Notes Line style solid
-	2700 2200 2700 2100
-Wire Notes Line style solid
-	2700 2100 2750 2100
-Wire Notes Line style solid
-	2750 2100 2750 2200
-Wire Notes Line style solid
-	2750 2200 2800 2200
-Wire Notes Line style solid
-	2800 2200 2800 2100
-Wire Notes Line style solid
-	2800 2100 2850 2100
-Wire Notes Line style solid
-	2250 2100 2200 2100
-Wire Notes Line style solid
-	2200 2250 2400 2250
-Wire Notes Line style solid
-	2400 2250 2400 2350
-Wire Notes Line style solid
-	2400 2350 2500 2350
-Wire Notes Line style solid
-	2500 2350 2500 2250
-Wire Notes Line style solid
-	2500 2250 2850 2250
-Wire Notes Line style solid
-	2200 2500 2400 2500
-Wire Notes Line style solid
-	2400 2500 2400 2400
-Wire Notes Line style solid
-	2400 2400 2500 2400
-Wire Notes Line style solid
-	2500 2400 2500 2500
-Wire Notes Line style solid
-	2500 2500 2850 2500
-Wire Notes Line style solid
-	2500 2650 2500 2550
-Wire Notes Line style solid
-	2200 2700 2450 2700
-Wire Notes Line style solid
-	2450 2700 2450 2800
-Wire Notes Line style solid
-	2450 2800 2500 2800
-Wire Notes Line style solid
-	2500 2800 2500 2700
-Wire Notes Line style solid
-	2500 2700 2850 2700
-Text Notes 2150 2800 2    50   ~ 0
-Gate
-Text Notes 2150 2200 2    50   ~ 0
-Clk
-Text Notes 2150 2350 2    50   ~ 0
-a<b
-Text Notes 2150 2500 2    50   ~ 0
-a=b
-Text Notes 2150 2650 2    50   ~ 0
-a>b
-Wire Notes Line style solid
-	2200 2650 2850 2650
-Text Notes 2200 2100 0    57   ~ 0
-0 1 2 0 1 2 3
-Wire Notes Line style solid
-	2200 2650 2200 2550
-Wire Notes Line style solid
-	2200 2350 2200 2250
-Wire Notes Line style solid
-	2200 2200 2200 2100
 Text Notes 1600 5350 0    50   ~ 0
 Duration counter
 Text Notes 800  5850 0    50   ~ 0
@@ -1337,18 +1235,14 @@ Text Notes 4200 5200 0    50   ~ 0
 Chorus/Impro\nselector
 Text Notes 6500 5050 0    50   ~ 0
 Chorus duration\npattern ROM
-Text Notes 7050 1100 0    50   ~ 0
-Note step counter
-Text Notes 7000 1850 0    50   ~ 0
-Duration pattern counter
+Text Notes 7100 1100 0    50   ~ 0
+Note step\ncounter
+Text Notes 7100 1850 0    50   ~ 0
+Duration pattern\ncounter
 Text Notes 9850 1900 0    50   ~ 0
 Extra counter bit
 Text Notes 8550 6050 0    50   ~ 0
 Chorus duration pattern\nselection latch
-Wire Notes Line style solid
-	2200 2400 2200 2500
-Wire Notes Line style solid
-	2200 2700 2200 2800
 Wire Wire Line
 	6000 6450 7700 6450
 Connection ~ 6000 6450
@@ -1584,4 +1478,149 @@ F 3 "" H 7550 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 4800 7450 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5FD84D9C
+P 2000 2600
+AR Path="/5FD84D9C" Ref="#PWR?"  Part="1" 
+AR Path="/5F345A0C/5FD84D9C" Ref="#PWR?"  Part="1" 
+AR Path="/5F425067/5FD84D9C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2000 2350 50  0001 C CNN
+F 1 "GND" H 2005 2427 50  0000 C CNN
+F 2 "" H 2000 2600 50  0001 C CNN
+F 3 "" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2200 2000 2200
+Wire Wire Line
+	2000 2200 2000 2300
+Connection ~ 1750 2200
+Wire Notes Line style solid
+	2550 2700 2550 2800
+Wire Notes Line style solid
+	2550 2400 2550 2500
+Wire Notes Line style solid
+	2550 2200 2550 2100
+Wire Notes Line style solid
+	2550 2350 2550 2250
+Wire Notes Line style solid
+	2550 2650 2550 2550
+Text Notes 2550 2100 0    57   ~ 0
+0 1 2 0 1 2 3
+Wire Notes Line style solid
+	2550 2650 3200 2650
+Text Notes 2500 2650 2    50   ~ 0
+a>b
+Text Notes 2500 2500 2    50   ~ 0
+a=b
+Text Notes 2500 2350 2    50   ~ 0
+a<b
+Text Notes 2500 2200 2    50   ~ 0
+Clk
+Text Notes 2500 2800 2    50   ~ 0
+Gate
+Wire Notes Line style solid
+	2850 2700 3200 2700
+Wire Notes Line style solid
+	2850 2800 2850 2700
+Wire Notes Line style solid
+	2800 2800 2850 2800
+Wire Notes Line style solid
+	2800 2700 2800 2800
+Wire Notes Line style solid
+	2550 2700 2800 2700
+Wire Notes Line style solid
+	2850 2650 2850 2550
+Wire Notes Line style solid
+	2850 2500 3200 2500
+Wire Notes Line style solid
+	2850 2400 2850 2500
+Wire Notes Line style solid
+	2750 2400 2850 2400
+Wire Notes Line style solid
+	2750 2500 2750 2400
+Wire Notes Line style solid
+	2550 2500 2750 2500
+Wire Notes Line style solid
+	2850 2250 3200 2250
+Wire Notes Line style solid
+	2850 2350 2850 2250
+Wire Notes Line style solid
+	2750 2350 2850 2350
+Wire Notes Line style solid
+	2750 2250 2750 2350
+Wire Notes Line style solid
+	2550 2250 2750 2250
+Wire Notes Line style solid
+	2600 2100 2550 2100
+Wire Notes Line style solid
+	3150 2100 3200 2100
+Wire Notes Line style solid
+	3150 2200 3150 2100
+Wire Notes Line style solid
+	3100 2200 3150 2200
+Wire Notes Line style solid
+	3100 2100 3100 2200
+Wire Notes Line style solid
+	3050 2100 3100 2100
+Wire Notes Line style solid
+	3050 2200 3050 2100
+Wire Notes Line style solid
+	3000 2200 3050 2200
+Wire Notes Line style solid
+	3000 2100 3000 2200
+Wire Notes Line style solid
+	2950 2100 3000 2100
+Wire Notes Line style solid
+	2950 2200 2950 2100
+Wire Notes Line style solid
+	2900 2200 2950 2200
+Wire Notes Line style solid
+	2900 2100 2900 2200
+Wire Notes Line style solid
+	2850 2100 2900 2100
+Wire Notes Line style solid
+	2850 2200 2850 2100
+Wire Notes Line style solid
+	2800 2200 2850 2200
+Wire Notes Line style solid
+	2800 2100 2800 2200
+Wire Notes Line style solid
+	2750 2100 2800 2100
+Wire Notes Line style solid
+	2750 2200 2750 2100
+Wire Notes Line style solid
+	2700 2200 2750 2200
+Wire Notes Line style solid
+	2700 2100 2700 2200
+Wire Notes Line style solid
+	2650 2100 2700 2100
+Wire Notes Line style solid
+	2650 2200 2650 2100
+Wire Notes Line style solid
+	2600 2200 2650 2200
+Wire Notes Line style solid
+	2600 2100 2600 2200
+$Comp
+L Device:C C?
+U 1 1 5FD84D96
+P 2000 2450
+AR Path="/5FD84D96" Ref="C?"  Part="1" 
+AR Path="/5F345A0C/5FD84D96" Ref="C?"  Part="1" 
+AR Path="/5F425067/5FD84D96" Ref="C?"  Part="1" 
+F 0 "C?" V 2150 2450 50  0000 C CNN
+F 1 "2n" V 2250 2450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 2038 2300 50  0001 C CNN
+F 3 "~" H 2000 2450 50  0001 C CNN
+	1    2000 2450
+	1    0    0    1   
+$EndComp
+Text HLabel 10550 750  2    50   Input ~ 0
+End
+Wire Wire Line
+	10550 750  10400 750 
+Text Label 10400 750  0    50   ~ 0
+End
 $EndSCHEMATC
