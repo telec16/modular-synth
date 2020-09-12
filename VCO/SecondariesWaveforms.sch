@@ -362,7 +362,7 @@ AR Path="/5FCBFC35" Ref="R?"  Part="1"
 AR Path="/5FAD0DD3/5FCBFC35" Ref="R501"  Part="1" 
 F 0 "R501" V 2450 1750 50  0000 C CNN
 F 1 "100k" V 2550 1750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2480 1750 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2480 1750 50  0001 C CNN
 F 3 "~" H 2550 1750 50  0001 C CNN
 	1    2550 1750
 	0    -1   1    0   

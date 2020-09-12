@@ -14,7 +14,7 @@
 	- 3340
 	- Schmitt inverter
 	- Opamp V1 ![100%](https://progress-bar.dev/100)
-	- Opamp V2 ![55%](https://progress-bar.dev/55)
+	- Opamp V2 ![65%](https://progress-bar.dev/65)
 * LFO
 	- Hex Inverter
 * Sequencer
