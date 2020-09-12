@@ -13,13 +13,13 @@
 * VCO
 	- 3340
 	- Schmitt inverter
-	- Opamp V1 ![80%](https://progress-bar.dev/80)
-	- Opamp V2 ![40%](https://progress-bar.dev/40)
+	- Opamp V1 ![100%](https://progress-bar.dev/100)
+	- Opamp V2 ![55%](https://progress-bar.dev/55)
 * LFO
 	- Hex Inverter
 * Sequencer
 	- µC
-	- random jazz generator ![75%](https://progress-bar.dev/75)
+	- random jazz generator ![90%](https://progress-bar.dev/90)
 * Random generator
 	- zener
 	- µC

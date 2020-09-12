@@ -54,15 +54,15 @@ F 3 "" H 1550 1400 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL082 U?
-U 1 1 5FCBFBA4
+U 2 1 5FCBFBA4
 P 2550 3150
 AR Path="/5FCBFBA4" Ref="U?"  Part="1" 
-AR Path="/5FAD0DD3/5FCBFBA4" Ref="U502"  Part="1" 
+AR Path="/5FAD0DD3/5FCBFBA4" Ref="U502"  Part="2" 
 F 0 "U502" H 2750 2950 50  0000 C CNN
 F 1 "TL082" H 2750 3050 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 2550 3150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2550 3150 50  0001 C CNN
-	1    2550 3150
+	2    2550 3150
 	1    0    0    1   
 $EndComp
 $Comp
@@ -501,15 +501,15 @@ F 3 "~" H 1850 4050 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL082 U?
-U 2 1 5FCC95BB
+U 1 1 5FCC95BB
 P 2550 5000
 AR Path="/5FCC95BB" Ref="U?"  Part="2" 
-AR Path="/5FAD0DD3/5FCC95BB" Ref="U502"  Part="2" 
+AR Path="/5FAD0DD3/5FCC95BB" Ref="U502"  Part="1" 
 F 0 "U502" H 2750 4800 50  0000 C CNN
 F 1 "TL082" H 2750 4900 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 2550 5000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2550 5000 50  0001 C CNN
-	2    2550 5000
+	1    2550 5000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
