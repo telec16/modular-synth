@@ -2011,19 +2011,6 @@ F 3 "" H 3750 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5F835D57
-P 1350 3200
-AR Path="/5F835D57" Ref="R2"  Part="1" 
-AR Path="/5F42563C/5F835D57" Ref="R?"  Part="1" 
-F 0 "R2" V 1400 2900 50  0000 L CNN
-F 1 "2k7" V 1350 3150 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1280 3200 50  0001 C CNN
-F 3 "~" H 1350 3200 50  0001 C CNN
-	1    1350 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+12V #PWR011
 U 1 1 5F83B901
 P 1650 3150
@@ -2071,20 +2058,6 @@ F 3 "" H 1300 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 3850 1300 3900
-$Comp
-L Device:R R1
-U 1 1 5F89F815
-P 1300 4050
-AR Path="/5F89F815" Ref="R1"  Part="1" 
-AR Path="/5F42563C/5F89F815" Ref="R?"  Part="1" 
-AR Path="/5F425067/5F89F815" Ref="R?"  Part="1" 
-F 0 "R1" V 1200 3950 50  0000 L CNN
-F 1 "100k" V 1300 3950 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1230 4050 50  0001 C CNN
-F 3 "~" H 1300 4050 50  0001 C CNN
-	1    1300 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 4250 1300 4200
 $Comp
@@ -2097,5 +2070,33 @@ F 2 "telec:Jack_Hole_Square" H 950 3100 50  0001 C CNN
 F 3 "~" H 950 3100 50  0001 C CNN
 	1    950  3100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F9EC571
+P 1300 4050
+AR Path="/5F9EC571" Ref="R1"  Part="1" 
+AR Path="/5F42563C/5F9EC571" Ref="R?"  Part="1" 
+AR Path="/5F425067/5F9EC571" Ref="R?"  Part="1" 
+F 0 "R1" V 1200 3950 50  0000 L CNN
+F 1 "100k" V 1300 3950 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1230 4050 50  0001 C CNN
+F 3 "~" H 1300 4050 50  0001 C CNN
+	1    1300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F9EDF49
+P 1350 3200
+AR Path="/5F9EDF49" Ref="R2"  Part="1" 
+AR Path="/5F42563C/5F9EDF49" Ref="R?"  Part="1" 
+AR Path="/5F425067/5F9EDF49" Ref="R?"  Part="1" 
+F 0 "R2" V 1300 3350 50  0000 L CNN
+F 1 "2k7" V 1350 3150 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1280 3200 50  0001 C CNN
+F 3 "~" H 1350 3200 50  0001 C CNN
+	1    1350 3200
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
