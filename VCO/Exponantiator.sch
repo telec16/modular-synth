@@ -48,13 +48,13 @@ F 3 "" H 1150 4200 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL082 U401
-U 1 1 5FB1B0D4
+U 2 1 5FB1B0D4
 P 3050 2600
 F 0 "U401" H 3250 2800 50  0000 C CNN
 F 1 "TL082" H 3250 2700 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 3050 2600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3050 2600 50  0001 C CNN
-	1    3050 2600
+	2    3050 2600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -298,13 +298,13 @@ F 3 "" H 1450 1500 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL082 U401
-U 2 1 5FB1B15E
+U 1 1 5FB1B15E
 P 1500 4000
 F 0 "U401" H 1700 4200 50  0000 C CNN
 F 1 "TL082" H 1700 4100 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 1500 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 1500 4000 50  0001 C CNN
-	2    1500 4000
+	1    1500 4000
 	1    0    0    1   
 $EndComp
 $Comp
