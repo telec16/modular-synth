@@ -56,8 +56,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 2100 1350 2100
 Connection ~ 1450 2100
-Wire Wire Line
-	2850 2200 2950 2200
 $Comp
 L Device:R R?
 U 1 1 5FBA3750
@@ -114,21 +112,6 @@ Wire Wire Line
 	1050 2300 900  2300
 Wire Wire Line
 	1050 2100 900  2100
-$Comp
-L Device:R R?
-U 1 1 5FBA376F
-P 2700 2200
-AR Path="/5FBA376F" Ref="R?"  Part="1" 
-AR Path="/5FADAEA0/5FBA376F" Ref="R303"  Part="1" 
-F 0 "R303" V 2800 2200 50  0000 C CNN
-F 1 "0" V 2700 2200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2630 2200 50  0001 C CNN
-F 3 "~" H 2700 2200 50  0001 C CNN
-	1    2700 2200
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	2550 2200 2450 2200
 Connection ~ 2450 2200
 $Comp
 L Device:R R?
@@ -277,4 +260,10 @@ Text HLabel 900  3450 0    50   Input ~ 0
 Offset
 Text HLabel 900  2500 0    50   Input ~ 0
 CV3
+Wire Wire Line
+	2450 2200 2950 2200
+Text Notes 1350 3750 0    50   ~ 0
+Offset is also affected by the gain,\nnot really great
+Text Notes 2650 1900 0    50   ~ 0
+Multiply by 0.018 for the next stage:\n5V -> 90mV
 $EndSCHEMATC

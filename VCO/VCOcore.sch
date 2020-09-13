@@ -359,9 +359,9 @@ F 3 "" H 1700 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3000 2250 3000 1750
+	3000 2250 3000 1800
 Wire Wire Line
-	3000 1750 4250 1750
+	3000 1800 4250 1800
 Connection ~ 3000 2250
 Wire Wire Line
 	3000 2250 3150 2250
@@ -369,8 +369,12 @@ Wire Wire Line
 	3900 2350 4250 2350
 Text HLabel 4250 2350 2    50   Input ~ 0
 Square
-Text HLabel 4250 1750 2    50   Input ~ 0
+Text HLabel 4250 1800 2    50   Input ~ 0
 Triangle
 Text HLabel 850  2250 0    50   Input ~ 0
 Vexp
+Text Notes 2700 3350 0    50   ~ 0
+Can be replaced with \ntwo 100k resistors
+Text Notes 3050 1650 0    50   ~ 0
+The input voltage->frequency relation\nis described in a separate CSV file
 $EndSCHEMATC
