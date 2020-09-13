@@ -14,7 +14,7 @@
 	- 3340
 	- Schmitt inverter
 	- Opamp V1 ![100%](https://progress-bar.dev/100)
-	- Opamp V2 ![70%](https://progress-bar.dev/70)
+	- Opamp V2 ![75%](https://progress-bar.dev/75)
 * LFO
 	- Hex Inverter
 * Sequencer
@@ -36,7 +36,7 @@
 	- ???
 * Frequency multiplier/divider
 	- CD4046 PLL V1 ![100%](https://progress-bar.dev/100)
-	- CD4046 PLL V2 ![50%](https://progress-bar.dev/50)
+	- CD4046 PLL V2 ![75%](https://progress-bar.dev/75)
 * Wavefolder
 	- Bipolar ![100%](https://progress-bar.dev/100)
 	- Opamp ![100%](https://progress-bar.dev/100)
@@ -48,4 +48,4 @@
 ## Instruments
 
 * MiniSynth ![50%](https://progress-bar.dev/50)
-* MIDI I/O + CV Out keypad
+* MIDI I/O + CV Out keypad ![5%](https://progress-bar.dev/5)
