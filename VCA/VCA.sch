@@ -25,34 +25,33 @@ F 3 "~" H 4700 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:AudioJack3_Switch J3
+L Connector:AudioJack3_SwitchTR J3
 U 1 1 5F0BD040
 P 3900 2700
 F 0 "J3" H 3882 3125 50  0000 C CNN
 F 1 "IN1" H 3882 3034 50  0000 C CNN
-F 2 "telec:JackHole" H 3900 2700 50  0001 C CNN
+F 2 "telec:Jack_Hole_Square" H 3900 2700 50  0001 C CNN
 F 3 "~" H 3900 2700 50  0001 C CNN
 	1    3900 2700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4100 2600
 NoConn ~ 4100 2700
 NoConn ~ 4100 2800
 $Comp
 L power:GND #PWR030
 U 1 1 5F0D2E83
-P 4200 2550
-F 0 "#PWR030" H 4200 2300 50  0001 C CNN
-F 1 "GND" H 4205 2377 50  0000 C CNN
-F 2 "" H 4200 2550 50  0001 C CNN
-F 3 "" H 4200 2550 50  0001 C CNN
-	1    4200 2550
+P 4200 2650
+F 0 "#PWR030" H 4200 2400 50  0001 C CNN
+F 1 "GND" H 4205 2477 50  0000 C CNN
+F 2 "" H 4200 2650 50  0001 C CNN
+F 3 "" H 4200 2650 50  0001 C CNN
+	1    4200 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 2500 4200 2500
+	4100 2600 4200 2600
 Wire Wire Line
-	4200 2500 4200 2550
+	4200 2600 4200 2650
 $Comp
 L power:GND #PWR034
 U 1 1 5F0E8429
@@ -74,7 +73,7 @@ U 1 1 5F10EFA0
 P 3900 850
 F 0 "RV1" V 3800 850 50  0000 C CNN
 F 1 "100k" V 3900 850 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole" H 3900 850 50  0001 C CNN
+F 2 "telec:Potentiometer_Single_Vertical_Hole" H 3900 850 50  0001 C CNN
 F 3 "~" H 3900 850 50  0001 C CNN
 	1    3900 850 
 	1    0    0    -1  
@@ -136,29 +135,28 @@ Wire Wire Line
 Wire Wire Line
 	2150 1250 2150 1350
 $Comp
-L Connector:AudioJack3_Switch J4
+L Connector:AudioJack3_SwitchTR J4
 U 1 1 5F4208DD
 P 9600 2700
 F 0 "J4" H 9582 3125 50  0000 C CNN
 F 1 "OUT1" H 9582 3034 50  0000 C CNN
-F 2 "telec:JackHole" H 9600 2700 50  0001 C CNN
+F 2 "telec:Jack_Hole_Square" H 9600 2700 50  0001 C CNN
 F 3 "~" H 9600 2700 50  0001 C CNN
 	1    9600 2700
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 9400 2800
 NoConn ~ 9400 2700
-NoConn ~ 9400 2600
 NoConn ~ 9400 3000
 $Comp
 L power:GND #PWR029
 U 1 1 5FBFF003
-P 9400 2500
-F 0 "#PWR029" H 9400 2250 50  0001 C CNN
-F 1 "GND" V 9405 2372 50  0000 R CNN
-F 2 "" H 9400 2500 50  0001 C CNN
-F 3 "" H 9400 2500 50  0001 C CNN
-	1    9400 2500
+P 9400 2600
+F 0 "#PWR029" H 9400 2350 50  0001 C CNN
+F 1 "GND" V 9405 2472 50  0000 R CNN
+F 2 "" H 9400 2600 50  0001 C CNN
+F 3 "" H 9400 2600 50  0001 C CNN
+	1    9400 2600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -487,34 +485,33 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 1550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3_Switch J2
+L Connector:AudioJack3_SwitchTR J2
 U 1 1 5F48DF93
 P 3900 1700
 F 0 "J2" H 3882 2125 50  0000 C CNN
 F 1 "CV1" H 3882 2034 50  0000 C CNN
-F 2 "telec:JackHole" H 3900 1700 50  0001 C CNN
+F 2 "telec:Jack_Hole_Square" H 3900 1700 50  0001 C CNN
 F 3 "~" H 3900 1700 50  0001 C CNN
 	1    3900 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4100 1600
 NoConn ~ 4100 1700
 NoConn ~ 4100 1800
 $Comp
 L power:GND #PWR015
 U 1 1 5F48DF9C
-P 4200 1550
-F 0 "#PWR015" H 4200 1300 50  0001 C CNN
-F 1 "GND" H 4205 1377 50  0000 C CNN
-F 2 "" H 4200 1550 50  0001 C CNN
-F 3 "" H 4200 1550 50  0001 C CNN
-	1    4200 1550
+P 4200 1650
+F 0 "#PWR015" H 4200 1400 50  0001 C CNN
+F 1 "GND" H 4205 1477 50  0000 C CNN
+F 2 "" H 4200 1650 50  0001 C CNN
+F 3 "" H 4200 1650 50  0001 C CNN
+	1    4200 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 1500 4200 1500
+	4100 1600 4200 1600
 Wire Wire Line
-	4200 1500 4200 1550
+	4200 1600 4200 1650
 $Comp
 L power:GND #PWR022
 U 1 1 5F48DFA4
@@ -623,7 +620,7 @@ U 1 1 5F554200
 P 5150 1450
 F 0 "RV2" V 5050 1450 50  0000 C CNN
 F 1 "100k" V 5150 1450 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole" H 5150 1450 50  0001 C CNN
+F 2 "telec:Potentiometer_Single_Vertical_Hole" H 5150 1450 50  0001 C CNN
 F 3 "~" H 5150 1450 50  0001 C CNN
 	1    5150 1450
 	0    -1   1    0   
@@ -1062,34 +1059,33 @@ F 3 "~" H 4700 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:AudioJack3_Switch J6
+L Connector:AudioJack3_SwitchTR J6
 U 1 1 5F8CF6A4
 P 3900 5650
 F 0 "J6" H 3882 6075 50  0000 C CNN
 F 1 "IN2" H 3882 5984 50  0000 C CNN
-F 2 "telec:JackHole" H 3900 5650 50  0001 C CNN
+F 2 "telec:Jack_Hole_Square" H 3900 5650 50  0001 C CNN
 F 3 "~" H 3900 5650 50  0001 C CNN
 	1    3900 5650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4100 5550
 NoConn ~ 4100 5650
 NoConn ~ 4100 5750
 $Comp
 L power:GND #PWR055
 U 1 1 5F8CF6AD
-P 4200 5500
-F 0 "#PWR055" H 4200 5250 50  0001 C CNN
-F 1 "GND" H 4205 5327 50  0000 C CNN
-F 2 "" H 4200 5500 50  0001 C CNN
-F 3 "" H 4200 5500 50  0001 C CNN
-	1    4200 5500
+P 4200 5600
+F 0 "#PWR055" H 4200 5350 50  0001 C CNN
+F 1 "GND" H 4205 5427 50  0000 C CNN
+F 2 "" H 4200 5600 50  0001 C CNN
+F 3 "" H 4200 5600 50  0001 C CNN
+	1    4200 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 5450 4200 5450
+	4100 5550 4200 5550
 Wire Wire Line
-	4200 5450 4200 5500
+	4200 5550 4200 5600
 $Comp
 L power:GND #PWR057
 U 1 1 5F8CF6B5
@@ -1111,7 +1107,7 @@ U 1 1 5F8CF6BD
 P 3900 3800
 F 0 "RV4" V 3800 3800 50  0000 C CNN
 F 1 "100k" V 3900 3800 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole" H 3900 3800 50  0001 C CNN
+F 2 "telec:Potentiometer_Single_Vertical_Hole" H 3900 3800 50  0001 C CNN
 F 3 "~" H 3900 3800 50  0001 C CNN
 	1    3900 3800
 	1    0    0    -1  
@@ -1128,60 +1124,58 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 6500 6225 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack3_Switch J7
+L Connector:AudioJack3_SwitchTR J7
 U 1 1 5F8CF6C9
 P 9600 5650
 F 0 "J7" H 9582 6075 50  0000 C CNN
 F 1 "OUT2" H 9582 5984 50  0000 C CNN
-F 2 "telec:JackHole" H 9600 5650 50  0001 C CNN
+F 2 "telec:Jack_Hole_Square" H 9600 5650 50  0001 C CNN
 F 3 "~" H 9600 5650 50  0001 C CNN
 	1    9600 5650
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 9400 5750
 NoConn ~ 9400 5650
-NoConn ~ 9400 5550
 NoConn ~ 9400 5950
 $Comp
 L power:GND #PWR054
 U 1 1 5F8CF6D3
-P 9400 5450
-F 0 "#PWR054" H 9400 5200 50  0001 C CNN
-F 1 "GND" V 9405 5322 50  0000 R CNN
-F 2 "" H 9400 5450 50  0001 C CNN
-F 3 "" H 9400 5450 50  0001 C CNN
-	1    9400 5450
+P 9400 5550
+F 0 "#PWR054" H 9400 5300 50  0001 C CNN
+F 1 "GND" V 9405 5422 50  0000 R CNN
+F 2 "" H 9400 5550 50  0001 C CNN
+F 3 "" H 9400 5550 50  0001 C CNN
+	1    9400 5550
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:AudioJack3_Switch J5
+L Connector:AudioJack3_SwitchTR J5
 U 1 1 5F8CF6D9
 P 3900 4650
 F 0 "J5" H 3882 5075 50  0000 C CNN
 F 1 "CV2" H 3882 4984 50  0000 C CNN
-F 2 "telec:JackHole" H 3900 4650 50  0001 C CNN
+F 2 "telec:Jack_Hole_Square" H 3900 4650 50  0001 C CNN
 F 3 "~" H 3900 4650 50  0001 C CNN
 	1    3900 4650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4100 4550
 NoConn ~ 4100 4650
 NoConn ~ 4100 4750
 $Comp
 L power:GND #PWR038
 U 1 1 5F8CF6E2
-P 4200 4500
-F 0 "#PWR038" H 4200 4250 50  0001 C CNN
-F 1 "GND" H 4205 4327 50  0000 C CNN
-F 2 "" H 4200 4500 50  0001 C CNN
-F 3 "" H 4200 4500 50  0001 C CNN
-	1    4200 4500
+P 4200 4600
+F 0 "#PWR038" H 4200 4350 50  0001 C CNN
+F 1 "GND" H 4205 4427 50  0000 C CNN
+F 2 "" H 4200 4600 50  0001 C CNN
+F 3 "" H 4200 4600 50  0001 C CNN
+	1    4200 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 4450 4200 4450
+	4100 4550 4200 4550
 Wire Wire Line
-	4200 4450 4200 4500
+	4200 4550 4200 4600
 $Comp
 L power:GND #PWR047
 U 1 1 5F8CF6EA
@@ -1279,7 +1273,7 @@ U 1 1 5F8CF71B
 P 5150 4400
 F 0 "RV5" V 5050 4400 50  0000 C CNN
 F 1 "100k" V 5150 4400 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole" H 5150 4400 50  0001 C CNN
+F 2 "telec:Potentiometer_Single_Vertical_Hole" H 5150 4400 50  0001 C CNN
 F 3 "~" H 5150 4400 50  0001 C CNN
 	1    5150 4400
 	0    -1   1    0   
