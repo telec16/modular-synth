@@ -49,3 +49,12 @@
 
 * MiniSynth ![50%](https://progress-bar.dev/50)
 * MIDI I/O + CV Out keypad ![5%](https://progress-bar.dev/5)
+
+# Releases
+
+* ADSR
+* CV Glider
+* VCA
+* Wavefolder
+* VCO
+* PLL
