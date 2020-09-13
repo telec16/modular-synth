@@ -54,9 +54,16 @@ gerber/
 
 # End of https://www.gitignore.io/api/kicad,ltspice
 
-personnal*
-*.zip
+.Pictures/
+.Releases/
+.Scripts/
+
 raw/
+
+personnal*
+
+*.pdf
+*.zip
 *.wav
 *.jpg
 
