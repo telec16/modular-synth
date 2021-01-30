@@ -258,7 +258,7 @@ F 1 "EuroPower" H 668 1376 50  0000 C CNN
 F 2 "telec:EuroPower" H 750 1150 50  0001 C CNN
 F 3 "~" H 750 1150 50  0001 C CNN
 	1    750  1150
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	950  1050 1050 1050
