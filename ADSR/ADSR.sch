@@ -146,15 +146,15 @@ F 3 "~" H 9600 5600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3_SwitchTR J3
+L Connector:Conn_01x01_Female J3
 U 1 1 5F0C434F
-P 9600 4650
-F 0 "J3" H 9320 4650 50  0000 R CNN
-F 1 "Hard Envelope" H 9320 4559 50  0000 R CNN
-F 2 "telec:Jack_Hole_Square" H 9600 4650 50  0001 C CNN
-F 3 "~" H 9600 4650 50  0001 C CNN
-	1    9600 4650
-	-1   0    0    -1  
+P 9600 4850
+F 0 "J3" H 9750 4800 50  0000 R CNN
+F 1 "Hard Envelope" H 10200 4900 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 9600 4850 50  0001 C CNN
+F 3 "~" H 9600 4850 50  0001 C CNN
+	1    9600 4850
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	1550 850  1650 850 
@@ -1368,4 +1368,6 @@ Wire Wire Line
 	2900 5100 2900 5750
 Wire Wire Line
 	2900 4450 2900 5100
+Text Notes 9650 4550 0    50   ~ 0
+Not enough room\nfor that...
 $EndSCHEMATC
