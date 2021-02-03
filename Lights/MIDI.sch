@@ -1,0 +1,469 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Isolator:EL817 U?
+U 1 1 605C5F12
+P 2750 2850
+AR Path="/605C5F12" Ref="U?"  Part="1" 
+AR Path="/605AEE63/605C5F12" Ref="U302"  Part="1" 
+F 0 "U302" H 2750 3175 50  0000 C CNN
+F 1 "6N138" H 2750 3084 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 2550 2650 50  0001 L CIN
+F 3 "" H 2750 2850 50  0001 L CNN
+	1    2750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 605C5F18
+P 2150 2850
+AR Path="/605C5F18" Ref="D?"  Part="1" 
+AR Path="/605AEE63/605C5F18" Ref="D301"  Part="1" 
+F 0 "D301" H 2150 3066 50  0000 C CNN
+F 1 "1N4148" H 2150 2975 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2150 2675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2150 2850 50  0001 C CNN
+	1    2150 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605C5F1E
+P 3100 3050
+AR Path="/605C5F1E" Ref="#PWR?"  Part="1" 
+AR Path="/605AEE63/605C5F1E" Ref="#PWR0308"  Part="1" 
+F 0 "#PWR0308" H 3100 2800 50  0001 C CNN
+F 1 "GND" H 3105 2877 50  0000 C CNN
+F 2 "" H 3100 3050 50  0001 C CNN
+F 3 "" H 3100 3050 50  0001 C CNN
+	1    3100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3050 3100 2950
+Wire Wire Line
+	3100 2950 3050 2950
+$Comp
+L Device:R R?
+U 1 1 605C5F26
+P 1850 3050
+AR Path="/605C5F26" Ref="R?"  Part="1" 
+AR Path="/605AEE63/605C5F26" Ref="R301"  Part="1" 
+F 0 "R301" V 1750 2950 50  0000 L CNN
+F 1 "220" V 1850 3000 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1780 3050 50  0001 C CNN
+F 3 "~" H 1850 3050 50  0001 C CNN
+	1    1850 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605C5F2C
+P 3100 2550
+AR Path="/605C5F2C" Ref="R?"  Part="1" 
+AR Path="/605AEE63/605C5F2C" Ref="R306"  Part="1" 
+F 0 "R306" V 3000 2450 50  0000 L CNN
+F 1 "220" V 3100 2500 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3030 2550 50  0001 C CNN
+F 3 "~" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 605C5F32
+P 3100 2350
+AR Path="/605C5F32" Ref="#PWR?"  Part="1" 
+AR Path="/605AEE63/605C5F32" Ref="#PWR0307"  Part="1" 
+F 0 "#PWR0307" H 3100 2200 50  0001 C CNN
+F 1 "+5V" H 3115 2523 50  0000 C CNN
+F 2 "" H 3100 2350 50  0001 C CNN
+F 3 "" H 3100 2350 50  0001 C CNN
+	1    3100 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2350 3100 2400
+Wire Wire Line
+	3100 2750 3050 2750
+Wire Wire Line
+	3100 2700 3100 2750
+Wire Wire Line
+	2450 2750 2400 2750
+Wire Wire Line
+	2400 2750 2400 2650
+Wire Wire Line
+	2400 2650 2150 2650
+Wire Wire Line
+	1650 2650 1650 2750
+Wire Wire Line
+	1650 2950 1650 3050
+Wire Wire Line
+	1650 3050 1700 3050
+Wire Wire Line
+	2400 3050 2400 2950
+Wire Wire Line
+	2400 2950 2450 2950
+Wire Wire Line
+	2000 3050 2150 3050
+Wire Wire Line
+	2150 3050 2150 3000
+Wire Wire Line
+	2150 2700 2150 2650
+Connection ~ 2150 3050
+Wire Wire Line
+	2150 3050 2400 3050
+Connection ~ 2150 2650
+Wire Wire Line
+	2150 2650 1650 2650
+Wire Wire Line
+	3100 2750 4100 2750
+Connection ~ 3100 2750
+Text Label 4100 2750 2    50   ~ 0
+MIDI_IN
+$Comp
+L 74xx:74LS04 U?
+U 3 1 605C5F4D
+P 2700 3750
+AR Path="/605C5F4D" Ref="U?"  Part="1" 
+AR Path="/605AEE63/605C5F4D" Ref="U301"  Part="3" 
+F 0 "U301" H 2700 4067 50  0000 C CNN
+F 1 "74LS04" H 2700 3976 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2700 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2700 3750 50  0001 C CNN
+	3    2700 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 2 1 605C5F53
+P 2700 4150
+AR Path="/605C5F53" Ref="U?"  Part="2" 
+AR Path="/605AEE63/605C5F53" Ref="U301"  Part="2" 
+F 0 "U301" H 2700 4467 50  0000 C CNN
+F 1 "74LS04" H 2700 4376 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2700 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2700 4150 50  0001 C CNN
+	2    2700 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 1 1 605C5F59
+P 3450 3950
+AR Path="/605C5F59" Ref="U?"  Part="3" 
+AR Path="/605AEE63/605C5F59" Ref="U301"  Part="1" 
+F 0 "U301" H 3450 4267 50  0000 C CNN
+F 1 "74LS04" H 3450 4176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3450 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3450 3950 50  0001 C CNN
+	1    3450 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3950 3100 3950
+Wire Wire Line
+	3100 3950 3100 3750
+Wire Wire Line
+	3100 3750 3000 3750
+Wire Wire Line
+	3100 3950 3100 4150
+Wire Wire Line
+	3100 4150 3000 4150
+Connection ~ 3100 3950
+Wire Wire Line
+	2400 4150 2300 4150
+Wire Wire Line
+	2300 4150 2300 3950
+Wire Wire Line
+	2300 3750 2400 3750
+$Comp
+L Device:R R?
+U 1 1 605C5F68
+P 1900 3750
+AR Path="/605C5F68" Ref="R?"  Part="1" 
+AR Path="/605AEE63/605C5F68" Ref="R302"  Part="1" 
+F 0 "R302" V 1800 3650 50  0000 L CNN
+F 1 "220" V 1900 3700 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 3750 50  0001 C CNN
+F 3 "~" H 1900 3750 50  0001 C CNN
+	1    1900 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605C5F6E
+P 1900 3950
+AR Path="/605C5F6E" Ref="R?"  Part="1" 
+AR Path="/605AEE63/605C5F6E" Ref="R303"  Part="1" 
+F 0 "R303" V 1800 3850 50  0000 L CNN
+F 1 "220" V 1900 3900 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 3950 50  0001 C CNN
+F 3 "~" H 1900 3950 50  0001 C CNN
+	1    1900 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 3750 2150 3750
+Connection ~ 2300 3950
+Wire Wire Line
+	2300 3950 2300 3750
+Wire Wire Line
+	1750 3950 1650 3950
+Wire Wire Line
+	1650 3750 1750 3750
+Wire Wire Line
+	3750 3950 4100 3950
+Text Label 4100 3950 2    50   ~ 0
+MIDI_IN
+$Comp
+L 74xx:74LS04 U?
+U 5 1 605C5F8C
+P 2700 4800
+AR Path="/605C5F8C" Ref="U?"  Part="1" 
+AR Path="/605AEE63/605C5F8C" Ref="U301"  Part="5" 
+F 0 "U301" H 2700 5117 50  0000 C CNN
+F 1 "74LS04" H 2700 5026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2700 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2700 4800 50  0001 C CNN
+	5    2700 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 4 1 605C5F92
+P 2700 5200
+AR Path="/605C5F92" Ref="U?"  Part="2" 
+AR Path="/605AEE63/605C5F92" Ref="U301"  Part="4" 
+F 0 "U301" H 2700 5517 50  0000 C CNN
+F 1 "74LS04" H 2700 5426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2700 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2700 5200 50  0001 C CNN
+	4    2700 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 6 1 605C5F98
+P 3450 5000
+AR Path="/605C5F98" Ref="U?"  Part="3" 
+AR Path="/605AEE63/605C5F98" Ref="U301"  Part="6" 
+F 0 "U301" H 3450 5317 50  0000 C CNN
+F 1 "74LS04" H 3450 5226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3450 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3450 5000 50  0001 C CNN
+	6    3450 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5000 3100 5000
+Wire Wire Line
+	3100 5000 3100 4800
+Wire Wire Line
+	3100 4800 3000 4800
+Wire Wire Line
+	3100 5000 3100 5200
+Wire Wire Line
+	3100 5200 3000 5200
+Connection ~ 3100 5000
+Wire Wire Line
+	3750 5000 4100 5000
+Text Label 4100 5000 2    50   ~ 0
+MIDI_OUT
+Wire Wire Line
+	2050 3950 2300 3950
+$Comp
+L power:+5V #PWR?
+U 1 1 605DB2D9
+P 2150 3700
+AR Path="/605DB2D9" Ref="#PWR?"  Part="1" 
+AR Path="/605AEE63/605DB2D9" Ref="#PWR0305"  Part="1" 
+F 0 "#PWR0305" H 2150 3550 50  0001 C CNN
+F 1 "+5V" H 2165 3873 50  0000 C CNN
+F 2 "" H 2150 3700 50  0001 C CNN
+F 3 "" H 2150 3700 50  0001 C CNN
+	1    2150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3700 2150 3750
+Wire Wire Line
+	2400 5200 2300 5200
+Wire Wire Line
+	2300 5200 2300 5000
+Wire Wire Line
+	2300 4800 2400 4800
+$Comp
+L Device:R R?
+U 1 1 605EDA1E
+P 1900 4800
+AR Path="/605EDA1E" Ref="R?"  Part="1" 
+AR Path="/605AEE63/605EDA1E" Ref="R304"  Part="1" 
+F 0 "R304" V 1800 4700 50  0000 L CNN
+F 1 "220" V 1900 4750 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 4800 50  0001 C CNN
+F 3 "~" H 1900 4800 50  0001 C CNN
+	1    1900 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605EDA24
+P 1900 5000
+AR Path="/605EDA24" Ref="R?"  Part="1" 
+AR Path="/605AEE63/605EDA24" Ref="R305"  Part="1" 
+F 0 "R305" V 1800 4900 50  0000 L CNN
+F 1 "220" V 1900 4950 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 5000 50  0001 C CNN
+F 3 "~" H 1900 5000 50  0001 C CNN
+	1    1900 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 4800 2150 4800
+Connection ~ 2300 5000
+Wire Wire Line
+	2300 5000 2300 4800
+Wire Wire Line
+	1750 5000 1650 5000
+Wire Wire Line
+	1650 4800 1750 4800
+Wire Wire Line
+	2050 5000 2300 5000
+$Comp
+L power:+5V #PWR?
+U 1 1 605EDA30
+P 2150 4750
+AR Path="/605EDA30" Ref="#PWR?"  Part="1" 
+AR Path="/605AEE63/605EDA30" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 2150 4600 50  0001 C CNN
+F 1 "+5V" H 2165 4923 50  0000 C CNN
+F 2 "" H 2150 4750 50  0001 C CNN
+F 3 "" H 2150 4750 50  0001 C CNN
+	1    2150 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4750 2150 4800
+Wire Wire Line
+	1650 2750 1550 2750
+Wire Wire Line
+	1650 2950 1550 2950
+Text HLabel 1550 2750 0    50   UnSpc ~ 0
+MIDI_IN+
+Text HLabel 1550 2950 0    50   UnSpc ~ 0
+MIDI_IN-
+Text HLabel 1650 3750 0    50   UnSpc ~ 0
+MIDI_THRU+
+Text HLabel 1650 3950 0    50   UnSpc ~ 0
+MIDI_THRU-
+Text HLabel 1650 4800 0    50   UnSpc ~ 0
+MIDI_OUT+
+Text HLabel 1650 5000 0    50   UnSpc ~ 0
+MIDI_OUT-
+$Comp
+L 74xx:74LS04 U?
+U 7 1 605FFFC7
+P 1450 1500
+AR Path="/605FFFC7" Ref="U?"  Part="3" 
+AR Path="/605AEE63/605FFFC7" Ref="U301"  Part="7" 
+F 0 "U301" H 1220 1546 50  0000 R CNN
+F 1 "74LS04" H 1220 1455 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1450 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1450 1500 50  0001 C CNN
+	7    1450 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60610077
+P 1450 1000
+AR Path="/60610077" Ref="#PWR?"  Part="1" 
+AR Path="/605AEE63/60610077" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 1450 850 50  0001 C CNN
+F 1 "+5V" H 1465 1173 50  0000 C CNN
+F 2 "" H 1450 1000 50  0001 C CNN
+F 3 "" H 1450 1000 50  0001 C CNN
+	1    1450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606106D4
+P 1450 2000
+AR Path="/606106D4" Ref="#PWR?"  Part="1" 
+AR Path="/605AEE63/606106D4" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 1450 1750 50  0001 C CNN
+F 1 "GND" H 1455 1827 50  0000 C CNN
+F 2 "" H 1450 2000 50  0001 C CNN
+F 3 "" H 1450 2000 50  0001 C CNN
+	1    1450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60614A0F
+P 2150 1550
+AR Path="/60614A0F" Ref="C?"  Part="1" 
+AR Path="/5F345A0C/60614A0F" Ref="C?"  Part="1" 
+AR Path="/605AEE63/60614A0F" Ref="C301"  Part="1" 
+F 0 "C301" V 2300 1550 50  0000 C CNN
+F 1 "100n" V 2400 1550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 2188 1400 50  0001 C CNN
+F 3 "~" H 2150 1550 50  0001 C CNN
+	1    2150 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60614A15
+P 2150 1700
+AR Path="/60614A15" Ref="#PWR?"  Part="1" 
+AR Path="/5F345A0C/60614A15" Ref="#PWR?"  Part="1" 
+AR Path="/605AEE63/60614A15" Ref="#PWR0304"  Part="1" 
+F 0 "#PWR0304" H 2150 1450 50  0001 C CNN
+F 1 "GND" H 2155 1527 50  0000 C CNN
+F 2 "" H 2150 1700 50  0001 C CNN
+F 3 "" H 2150 1700 50  0001 C CNN
+	1    2150 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 606157C6
+P 2150 1400
+AR Path="/606157C6" Ref="#PWR?"  Part="1" 
+AR Path="/605AEE63/606157C6" Ref="#PWR0303"  Part="1" 
+F 0 "#PWR0303" H 2150 1250 50  0001 C CNN
+F 1 "+5V" H 2165 1573 50  0000 C CNN
+F 2 "" H 2150 1400 50  0001 C CNN
+F 3 "" H 2150 1400 50  0001 C CNN
+	1    2150 1400
+	1    0    0    -1  
+$EndComp
+Text HLabel 5150 3900 2    50   Output ~ 0
+MIDI_IN
+Text HLabel 5150 4050 2    50   Input ~ 0
+MIDI_OUT
+Wire Wire Line
+	5150 3900 4800 3900
+Text Label 4800 3900 0    50   ~ 0
+MIDI_IN
+Wire Wire Line
+	5150 4050 4800 4050
+Text Label 4800 4050 0    50   ~ 0
+MIDI_OUT
+$EndSCHEMATC

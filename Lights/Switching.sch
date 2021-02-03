@@ -1,0 +1,243 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Isolator:EL817 U?
+U 1 1 60687108
+P 1900 1450
+AR Path="/60687108" Ref="U?"  Part="1" 
+AR Path="/605AEE63/60687108" Ref="U?"  Part="1" 
+AR Path="/60632B44/60687108" Ref="U401"  Part="1" 
+AR Path="/60725945/60687108" Ref="U701"  Part="1" 
+AR Path="/607266E0/60687108" Ref="U801"  Part="1" 
+F 0 "U401" H 1900 1775 50  0000 C CNN
+F 1 "6N138" H 1900 1684 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1700 1250 50  0001 L CIN
+F 3 "" H 1900 1450 50  0001 L CNN
+	1    1900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60689BC6
+P 1450 1100
+AR Path="/60689BC6" Ref="R?"  Part="1" 
+AR Path="/6052BF62/60689BC6" Ref="R?"  Part="1" 
+AR Path="/60632B44/60689BC6" Ref="R402"  Part="1" 
+AR Path="/60725945/60689BC6" Ref="R702"  Part="1" 
+AR Path="/607266E0/60689BC6" Ref="R802"  Part="1" 
+F 0 "R402" H 1500 1150 50  0000 L CNN
+F 1 "100" H 1500 1050 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1380 1100 50  0001 C CNN
+F 3 "~" H 1450 1100 50  0001 C CNN
+	1    1450 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 850  1450 950 
+Wire Wire Line
+	1450 1350 1600 1350
+Wire Wire Line
+	1450 1250 1450 1350
+Text HLabel 850  1850 0    50   Input ~ 0
+PWM
+$Comp
+L Transistor_BJT:PN2222A Q401
+U 1 1 6068FB2D
+P 1350 1850
+AR Path="/60632B44/6068FB2D" Ref="Q401"  Part="1" 
+AR Path="/60725945/6068FB2D" Ref="Q701"  Part="1" 
+AR Path="/607266E0/6068FB2D" Ref="Q801"  Part="1" 
+F 0 "Q401" H 1540 1896 50  0000 L CNN
+F 1 "PN2222A" H 1540 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 1550 1775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1350 1850 50  0001 L CNN
+	1    1350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2150 1450 2050
+Wire Wire Line
+	1450 1550 1600 1550
+Wire Wire Line
+	1450 1650 1450 1550
+$Comp
+L Device:R R?
+U 1 1 60692608
+P 1000 1850
+AR Path="/60692608" Ref="R?"  Part="1" 
+AR Path="/6052BF62/60692608" Ref="R?"  Part="1" 
+AR Path="/60632B44/60692608" Ref="R401"  Part="1" 
+AR Path="/60725945/60692608" Ref="R701"  Part="1" 
+AR Path="/607266E0/60692608" Ref="R801"  Part="1" 
+F 0 "R401" V 900 1800 50  0000 L CNN
+F 1 "1k" V 1000 1800 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 930 1850 50  0001 C CNN
+F 3 "~" H 1000 1850 50  0001 C CNN
+	1    1000 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 1550 2350 1550
+Wire Wire Line
+	2350 1550 2350 1650
+$Comp
+L power:+5V #PWR0401
+U 1 1 60698CBE
+P 1450 850
+AR Path="/60632B44/60698CBE" Ref="#PWR0401"  Part="1" 
+AR Path="/60725945/60698CBE" Ref="#PWR0701"  Part="1" 
+AR Path="/607266E0/60698CBE" Ref="#PWR0801"  Part="1" 
+F 0 "#PWR0401" H 1450 700 50  0001 C CNN
+F 1 "+5V" H 1465 1023 50  0000 C CNN
+F 2 "" H 1450 850 50  0001 C CNN
+F 3 "" H 1450 850 50  0001 C CNN
+	1    1450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0402
+U 1 1 6069909C
+P 1450 2150
+AR Path="/60632B44/6069909C" Ref="#PWR0402"  Part="1" 
+AR Path="/60725945/6069909C" Ref="#PWR0702"  Part="1" 
+AR Path="/607266E0/6069909C" Ref="#PWR0802"  Part="1" 
+F 0 "#PWR0402" H 1450 1900 50  0001 C CNN
+F 1 "GND" H 1455 1977 50  0000 C CNN
+F 2 "" H 1450 2150 50  0001 C CNN
+F 3 "" H 1450 2150 50  0001 C CNN
+	1    1450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6069AD31
+P 2350 1800
+AR Path="/6069AD31" Ref="R?"  Part="1" 
+AR Path="/6052BF62/6069AD31" Ref="R?"  Part="1" 
+AR Path="/60632B44/6069AD31" Ref="R403"  Part="1" 
+AR Path="/60725945/6069AD31" Ref="R703"  Part="1" 
+AR Path="/607266E0/6069AD31" Ref="R803"  Part="1" 
+F 0 "R403" H 2400 1850 50  0000 L CNN
+F 1 "1k" H 2400 1750 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2280 1800 50  0001 C CNN
+F 3 "~" H 2350 1800 50  0001 C CNN
+	1    2350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0403
+U 1 1 6069AD39
+P 2350 850
+AR Path="/60632B44/6069AD39" Ref="#PWR0403"  Part="1" 
+AR Path="/60725945/6069AD39" Ref="#PWR0703"  Part="1" 
+AR Path="/607266E0/6069AD39" Ref="#PWR0803"  Part="1" 
+F 0 "#PWR0403" H 2350 700 50  0001 C CNN
+F 1 "+5V" H 2365 1023 50  0000 C CNN
+F 2 "" H 2350 850 50  0001 C CNN
+F 3 "" H 2350 850 50  0001 C CNN
+	1    2350 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1950 2350 2050
+Wire Wire Line
+	2350 850  2350 1350
+$Comp
+L Transistor_FET:IRF540N Q402
+U 1 1 6069E315
+P 2700 1350
+AR Path="/60632B44/6069E315" Ref="Q402"  Part="1" 
+AR Path="/60725945/6069E315" Ref="Q702"  Part="1" 
+AR Path="/607266E0/6069E315" Ref="Q802"  Part="1" 
+F 0 "Q402" H 2904 1396 50  0000 L CNN
+F 1 "IRF540N" H 2904 1305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2950 1275 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 2700 1350 50  0001 L CNN
+	1    2700 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1550 2800 2050
+Wire Wire Line
+	2500 1350 2350 1350
+Connection ~ 2350 1350
+Wire Wire Line
+	2200 1350 2350 1350
+$Comp
+L power:-VDC #PWR0404
+U 1 1 606AE8B7
+P 2350 2050
+AR Path="/60632B44/606AE8B7" Ref="#PWR0404"  Part="1" 
+AR Path="/60725945/606AE8B7" Ref="#PWR0704"  Part="1" 
+AR Path="/607266E0/606AE8B7" Ref="#PWR0804"  Part="1" 
+F 0 "#PWR0404" H 2350 1950 50  0001 C CNN
+F 1 "-VDC" H 2350 2325 50  0000 C CNN
+F 2 "" H 2350 2050 50  0001 C CNN
+F 3 "" H 2350 2050 50  0001 C CNN
+	1    2350 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-VDC #PWR0406
+U 1 1 606AF7CF
+P 2800 2050
+AR Path="/60632B44/606AF7CF" Ref="#PWR0406"  Part="1" 
+AR Path="/60725945/606AF7CF" Ref="#PWR0706"  Part="1" 
+AR Path="/607266E0/606AF7CF" Ref="#PWR0806"  Part="1" 
+F 0 "#PWR0406" H 2800 1950 50  0001 C CNN
+F 1 "-VDC" H 2800 2325 50  0000 C CNN
+F 2 "" H 2800 2050 50  0001 C CNN
+F 3 "" H 2800 2050 50  0001 C CNN
+	1    2800 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+VDC #PWR0405
+U 1 1 606AFF23
+P 2800 950
+AR Path="/60632B44/606AFF23" Ref="#PWR0405"  Part="1" 
+AR Path="/60725945/606AFF23" Ref="#PWR0705"  Part="1" 
+AR Path="/607266E0/606AFF23" Ref="#PWR0805"  Part="1" 
+F 0 "#PWR0405" H 2800 850 50  0001 C CNN
+F 1 "+VDC" H 2800 1225 50  0000 C CNN
+F 2 "" H 2800 950 50  0001 C CNN
+F 3 "" H 2800 950 50  0001 C CNN
+	1    2800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J401
+U 1 1 606B0F32
+P 3200 1000
+AR Path="/60632B44/606B0F32" Ref="J401"  Part="1" 
+AR Path="/60725945/606B0F32" Ref="J701"  Part="1" 
+AR Path="/607266E0/606B0F32" Ref="J801"  Part="1" 
+F 0 "J401" H 3280 992 50  0000 L CNN
+F 1 "Light" H 3280 901 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3200 1000 50  0001 C CNN
+F 3 "~" H 3200 1000 50  0001 C CNN
+	1    3200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 950  2800 1000
+Wire Wire Line
+	2800 1000 3000 1000
+Wire Wire Line
+	3000 1100 2800 1100
+Wire Wire Line
+	2800 1100 2800 1150
+$EndSCHEMATC
