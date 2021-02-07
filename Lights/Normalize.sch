@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -23,7 +23,7 @@ AR Path="/606D25B5/6054FDCA" Ref="U501"  Part="1"
 AR Path="/606D67CF/6054FDCA" Ref="U601"  Part="1" 
 F 0 "U601" H 2150 2500 50  0000 C CNN
 F 1 "TL074" H 2200 2400 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 2350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2000 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2100 2450 50  0001 C CNN
 	1    2050 2250
 	1    0    0    -1  
@@ -38,7 +38,7 @@ AR Path="/606D25B5/6054FDD0" Ref="U501"  Part="3"
 AR Path="/606D67CF/6054FDD0" Ref="U601"  Part="3" 
 F 0 "U601" H 4550 3017 50  0000 C CNN
 F 1 "TL074" H 4550 2926 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 4500 2750 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4500 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4600 2850 50  0001 C CNN
 	3    4550 2650
 	1    0    0    -1  
@@ -53,7 +53,7 @@ AR Path="/606D25B5/6054FDD6" Ref="U501"  Part="2"
 AR Path="/606D67CF/6054FDD6" Ref="U601"  Part="2" 
 F 0 "U601" H 3400 3117 50  0000 C CNN
 F 1 "TL074" H 3400 3026 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 3350 2850 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3350 2850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3450 2950 50  0001 C CNN
 	2    3400 2750
 	1    0    0    -1  
@@ -68,7 +68,7 @@ AR Path="/606D25B5/6054FDDC" Ref="U501"  Part="4"
 AR Path="/606D67CF/6054FDDC" Ref="U601"  Part="4" 
 F 0 "U601" H 2150 3150 50  0000 C CNN
 F 1 "TL074" H 2200 3050 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 3000 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2000 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2100 3100 50  0001 C CNN
 	4    2050 2900
 	1    0    0    -1  
@@ -83,7 +83,7 @@ AR Path="/606D25B5/6054FDE2" Ref="U501"  Part="5"
 AR Path="/606D67CF/6054FDE2" Ref="U601"  Part="5" 
 F 0 "U601" H 1408 1146 50  0000 L CNN
 F 1 "TL074" H 1408 1055 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 1400 1200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1400 1200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1500 1300 50  0001 C CNN
 	5    1450 1100
 	1    0    0    -1  
@@ -98,7 +98,7 @@ AR Path="/606D25B5/6054FDE8" Ref="R502"  Part="1"
 AR Path="/606D67CF/6054FDE8" Ref="R602"  Part="1" 
 F 0 "R602" V 1950 3100 50  0000 L CNN
 F 1 "100k" V 2050 3100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1980 3200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1980 3200 50  0001 C CNN
 F 3 "~" H 2050 3200 50  0001 C CNN
 	1    2050 3200
 	0    1    1    0   
@@ -139,7 +139,7 @@ AR Path="/606D25B5/6054FDF9" Ref="R501"  Part="1"
 AR Path="/606D67CF/6054FDF9" Ref="R601"  Part="1" 
 F 0 "R601" V 1350 3100 50  0000 L CNN
 F 1 "100k" V 1450 3100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1380 3200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1380 3200 50  0001 C CNN
 F 3 "~" H 1450 3200 50  0001 C CNN
 	1    1450 3200
 	0    1    1    0   
@@ -200,7 +200,7 @@ AR Path="/606D25B5/6054FE19" Ref="R503"  Part="1"
 AR Path="/606D67CF/6054FE19" Ref="R603"  Part="1" 
 F 0 "R603" V 2900 3200 50  0000 L CNN
 F 1 "100k" V 3000 3200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2930 3300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2930 3300 50  0001 C CNN
 F 3 "~" H 3000 3300 50  0001 C CNN
 	1    3000 3300
 	-1   0    0    1   
@@ -215,7 +215,7 @@ AR Path="/606D25B5/6054FE1F" Ref="R504"  Part="1"
 AR Path="/606D67CF/6054FE1F" Ref="R604"  Part="1" 
 F 0 "R604" V 3300 2950 50  0000 L CNN
 F 1 "200k" V 3400 2950 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3330 3050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3330 3050 50  0001 C CNN
 F 3 "~" H 3400 3050 50  0001 C CNN
 	1    3400 3050
 	0    -1   -1   0   
@@ -314,7 +314,7 @@ AR Path="/606D25B5/6054FE49" Ref="R507"  Part="1"
 AR Path="/606D67CF/6054FE49" Ref="R607"  Part="1" 
 F 0 "R607" V 4400 2900 50  0000 L CNN
 F 1 "100k" V 4500 2900 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4430 3000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4430 3000 50  0001 C CNN
 F 3 "~" H 4500 3000 50  0001 C CNN
 	1    4500 3000
 	0    1    1    0   
@@ -347,7 +347,7 @@ AR Path="/606D25B5/6054FE59" Ref="R508"  Part="1"
 AR Path="/606D67CF/6054FE59" Ref="R608"  Part="1" 
 F 0 "R608" V 5100 2550 50  0000 L CNN
 F 1 "1k" V 5200 2600 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5130 2650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5130 2650 50  0001 C CNN
 F 3 "~" H 5200 2650 50  0001 C CNN
 	1    5200 2650
 	0    1    1    0   
@@ -362,7 +362,7 @@ AR Path="/606D25B5/6054FE5F" Ref="D501"  Part="1"
 AR Path="/606D67CF/6054FE5F" Ref="D601"  Part="1" 
 F 0 "D601" H 5450 2616 50  0000 C CNN
 F 1 "1N4148" H 5450 2525 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 2225 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 5450 2225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 2400 50  0001 C CNN
 	1    5450 2400
 	0    1    1    0   
@@ -377,7 +377,7 @@ AR Path="/606D25B5/6054FE65" Ref="D502"  Part="1"
 AR Path="/606D67CF/6054FE65" Ref="D602"  Part="1" 
 F 0 "D602" H 5450 3116 50  0000 C CNN
 F 1 "1N4148" H 5450 3025 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 2725 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 5450 2725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 2900 50  0001 C CNN
 	1    5450 2900
 	0    1    1    0   
@@ -434,7 +434,7 @@ AR Path="/606D25B5/6054FE7F" Ref="R505"  Part="1"
 AR Path="/606D67CF/6054FE7F" Ref="R605"  Part="1" 
 F 0 "R605" V 3550 1800 50  0000 L CNN
 F 1 "100k" V 3650 1800 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3580 1900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3580 1900 50  0001 C CNN
 F 3 "~" H 3650 1900 50  0001 C CNN
 	1    3650 1900
 	0    1    1    0   

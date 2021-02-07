@@ -34,7 +34,7 @@ AR Path="/605C5F18" Ref="D?"  Part="1"
 AR Path="/605AEE63/605C5F18" Ref="D301"  Part="1" 
 F 0 "D301" H 2150 3066 50  0000 C CNN
 F 1 "1N4148" H 2150 2975 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2150 2675 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 2150 2675 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2150 2850 50  0001 C CNN
 	1    2150 2850
 	0    1    1    0   
@@ -64,7 +64,7 @@ AR Path="/605C5F26" Ref="R?"  Part="1"
 AR Path="/605AEE63/605C5F26" Ref="R301"  Part="1" 
 F 0 "R301" V 1750 2950 50  0000 L CNN
 F 1 "220" V 1850 3000 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1780 3050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1780 3050 50  0001 C CNN
 F 3 "~" H 1850 3050 50  0001 C CNN
 	1    1850 3050
 	0    1    1    0   
@@ -77,7 +77,7 @@ AR Path="/605C5F2C" Ref="R?"  Part="1"
 AR Path="/605AEE63/605C5F2C" Ref="R306"  Part="1" 
 F 0 "R306" V 3000 2450 50  0000 L CNN
 F 1 "220" V 3100 2500 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3030 2550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3030 2550 50  0001 C CNN
 F 3 "~" H 3100 2550 50  0001 C CNN
 	1    3100 2550
 	-1   0    0    1   
@@ -198,7 +198,7 @@ AR Path="/605C5F68" Ref="R?"  Part="1"
 AR Path="/605AEE63/605C5F68" Ref="R302"  Part="1" 
 F 0 "R302" V 1800 3650 50  0000 L CNN
 F 1 "220" V 1900 3700 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 3750 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1830 3750 50  0001 C CNN
 F 3 "~" H 1900 3750 50  0001 C CNN
 	1    1900 3750
 	0    1    1    0   
@@ -211,7 +211,7 @@ AR Path="/605C5F6E" Ref="R?"  Part="1"
 AR Path="/605AEE63/605C5F6E" Ref="R303"  Part="1" 
 F 0 "R303" V 1800 3850 50  0000 L CNN
 F 1 "220" V 1900 3900 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 3950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1830 3950 50  0001 C CNN
 F 3 "~" H 1900 3950 50  0001 C CNN
 	1    1900 3950
 	0    1    1    0   
@@ -314,7 +314,7 @@ AR Path="/605EDA1E" Ref="R?"  Part="1"
 AR Path="/605AEE63/605EDA1E" Ref="R304"  Part="1" 
 F 0 "R304" V 1800 4700 50  0000 L CNN
 F 1 "220" V 1900 4750 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 4800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1830 4800 50  0001 C CNN
 F 3 "~" H 1900 4800 50  0001 C CNN
 	1    1900 4800
 	0    1    1    0   
@@ -327,7 +327,7 @@ AR Path="/605EDA24" Ref="R?"  Part="1"
 AR Path="/605AEE63/605EDA24" Ref="R305"  Part="1" 
 F 0 "R305" V 1800 4900 50  0000 L CNN
 F 1 "220" V 1900 4950 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 5000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1830 5000 50  0001 C CNN
 F 3 "~" H 1900 5000 50  0001 C CNN
 	1    1900 5000
 	0    1    1    0   
