@@ -4,10 +4,15 @@
 #define OUT1 9  //PB1
 #define OUT2 10 //PB2
 #define OUT3 3  //PD3
-#define SW0 7   //PD7
-#define SW1 6   //PD6
-#define SW2 5   //PD5
-#define SW3 4   //PD4
+#define SW3 7   //PD7
+#define SW2 6   //PD6
+#define SW1 5   //PD5
+#define SW0 4   //PD4
+#define INOUTS 3
+
+const byte IN[INOUTS] = {IN1, IN2, IN3};
+const byte OUT[INOUTS] = {OUT1, OUT2, OUT3};
+volatile byte jacks[INOUTS] = {0};
 
 void setup(){
   pinMode(OUT1, OUTPUT);
@@ -17,12 +22,40 @@ void setup(){
   pinMode(SW1, INPUT_PULLUP);
   pinMode(SW2, INPUT_PULLUP);
   pinMode(SW3, INPUT_PULLUP);
+
+  Serial.begin(31250);
 }
 
 void loop() {
-  analogWrite(OUT1, analogRead(IN1)/4);
-  analogWrite(OUT2, analogRead(IN2)/4);
-  analogWrite(OUT3, analogRead(IN3)/4);
+  readJacks();
+  writeLights();
+
+  if(digitalRead(SW3))
+    sendStates();
 
   delay(100);
+}
+
+void readJacks(){
+  for(byte i=0; i<INOUTS; i++){
+    jacks[i] = analogRead(IN[i])>>2;
+    delay(1);
+  }
+}
+
+void writeLights(){
+  for(byte i=0; i<INOUTS; i++){
+    analogWrite(OUT[i], jacks[i]);
+  }
+}
+
+void sendStates(){
+  for(byte i=0; i<INOUTS; i++){
+    sendMIDI(i, jacks[i]);
+  }
+}
+
+void sendMIDI(byte cmd, byte data){
+  Serial.print(cmd);
+  Serial.print(data);
 }
